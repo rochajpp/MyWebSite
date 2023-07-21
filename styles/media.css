@@ -1,0 +1,35 @@
+@media (min-width: 0px) and (max-width: 321px){
+    
+}
+
+/*Media para quando o CELULARES estiver DEITADO*/
+@media(max-height: 390px){
+   
+}
+
+/*Media feita para responsividade de CELULARES*/
+@media screen and (max-width: 892px) and (min-height: 400px){
+    
+    .header nav{
+        display: none;
+    }
+
+    .logoArea h1{
+        display: none;
+    }
+
+    .header{
+        justify-content: center;
+    }
+
+}
+
+/*Media para que quando a página for aberta em COMPUTADOR ela fique em tamnho fixo mas sem definir isso diretamente na classe*/
+@media screen and (min-width: 1226px){
+
+}
+
+/*Media feita para dimensão ENTRE a de CELULAR e a de COMPUTADOR*/
+@media screen and (min-width: 893px) and (max-width: 1226px){
+
+}

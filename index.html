@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Defining styles links CSS-->
-    <link rel="stylesheet" type="text/css" href="/style/main.css">
-    <link rel="stylesheet" type="text/css" href="/style/header.css">
-    <link rel="stylesheet" type="text/css" href="/style/media.css">
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <link rel="stylesheet" type="text/css" href="/styles/header.css">
+    <link rel="stylesheet" type="text/css" href="/styles/media.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/styles/popupLanguage.css"> -->
 
     <!--Defining the logo link-->
     <link rel="icon" type="text/css" href="/img/logoBlack.png"> 
@@ -20,10 +21,13 @@
     <title>Home | João Paulo Rocha</title>
 </head>
 <body>
+
+    <img id="backgroundImage" src="/img/workStation4.jpg">
     <div class="Main">
         <header>
             <div class="header">
                 <a class="logoArea" href="#"><img class="logo" src="/img/logoBlack.png"><h1>Rocha</h1></a>
+                <img class="logoResp logo" src="/img/logoBlack.png">
                 <nav>
                     <ul>
                         <a href="#"><li>Início</li></a>
@@ -34,6 +38,20 @@
                 </nav>
             </div>
         </header>
+        <section id="home"><h1>Portuguese</h1></section>
+        <section id="about"></section>
     </div>
+
+    <!-- <div id="languagePopup" class="popup">
+        <div class="popup-box">
+            <p>Selecione um idioma:</p>
+            <div class="optionsLanguage">
+                <button onclick="selectLanguage('pt-br')"><img class="flag" src="/img/brazilFlag.png"></button>
+                <button onclick="selectLanguage('en')"><img class="flag" src="/img/usaFlag.png"></button>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <script src="/code/popupLanguage.js"></script> -->
 </body>
 </html>

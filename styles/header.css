@@ -1,0 +1,63 @@
+header{
+    position: fixed;
+    width: 100%;
+}
+
+.header{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logoResp{
+    display: none;
+}
+
+.logoArea{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    width: 4rem;
+}
+
+nav ul{
+    display: flex;
+    gap: 4rem;
+}
+
+nav ul a{
+    position: relative;
+
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+nav ul a:hover ::after{
+    width: 100%;
+}
+
+nav ul a li{
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav ul a li::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
