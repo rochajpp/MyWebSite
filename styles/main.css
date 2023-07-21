@@ -22,3 +22,9 @@ body, html{
 section{
     height: 100vh;
 }
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
