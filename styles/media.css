@@ -18,6 +18,14 @@
         display: none;
     }
 
+    .primaryLogo{
+        display: none;
+    }
+
+    .logoResp{
+        display: block;
+    }
+
     .header{
         justify-content: center;
     }
