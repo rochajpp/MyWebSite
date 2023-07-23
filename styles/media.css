@@ -30,24 +30,27 @@
         justify-content: center;
     }
 
-    .home img{
+    .logoHome{
         display: none;
     }
 
 
     .home h1{
-        font-size: 0rem;
+        font-size: 2.4rem;
     }
 
-    #h12{
+    .home h2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #h1SecPart{
         display: none;
     }
 
-    .home a{
+    #point{
         display: none;
     }
-
-    
 
 }
 
@@ -55,6 +58,15 @@
 @media screen and (min-width: 1226px){
     .menuArea{
         display: none;
+    }
+
+    .home h1{
+        font-size: 2.8rem;
+    }
+
+    .home h2{
+        font-size: 2.5rem;
+        color: blue;
     }
 
 }

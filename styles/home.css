@@ -4,18 +4,11 @@
     text-align: center;
 }
 
-.home img{
+.logoHome{
     width: 8rem;
 }
 
-.home h1{
-    font-size: 2.8rem;
-}
 .home h2{
-    font-size: 2.5rem;
-}
-.home h3{
-    font-size: 2rem;
     color: blue;
 }
 
@@ -24,15 +17,17 @@
     position: absolute;
     right: 50%;
     left: 50%;
+    top: 70%;
     transform: translate(-50%, 50%);
-    animation: pointerAnimation 2s infinite;
+    animation: pointerAnimation 1s infinite;
+    width: 6rem;
 }
 
 
 
 @keyframes pointerAnimation{
     50%{
-        margin-top: 2rem
+        margin-top: 1rem
     }
 
     0%, 100%{
