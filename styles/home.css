@@ -1,0 +1,15 @@
+.home{
+    padding: 0 2rem;
+    text-align: center;
+}
+
+
+@keyframes writerAnimation{
+    50%{
+        opacity: 0%;
+    }
+
+    0%, 100%{
+        opacity: 100%;
+    }
+}
