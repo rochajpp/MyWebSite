@@ -29,6 +29,24 @@
     .header{
         justify-content: center;
     }
+
+    .home img{
+        display: none;
+    }
+
+
+    .home h1{
+        font-size: 0rem;
+    }
+
+    #h12{
+        display: none;
+    }
+
+    .home a{
+        display: none;
+    }
+
     
 
 }
@@ -43,5 +61,4 @@
 
 /*Media feita para dimensão ENTRE a de CELULAR e a de COMPUTADOR*/
 @media screen and (min-width: 893px) and (max-width: 1226px){
-
 }

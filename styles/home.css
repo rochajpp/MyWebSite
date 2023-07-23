@@ -1,15 +1,41 @@
 .home{
+    flex-direction: column;
     padding: 0 2rem;
     text-align: center;
 }
 
+.home img{
+    width: 8rem;
+}
 
-@keyframes writerAnimation{
+.home h1{
+    font-size: 2.8rem;
+}
+.home h2{
+    font-size: 2.5rem;
+}
+.home h3{
+    font-size: 2rem;
+    color: blue;
+}
+
+.pointer{
+    cursor: pointer;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    animation: pointerAnimation 2s infinite;
+}
+
+
+
+@keyframes pointerAnimation{
     50%{
-        opacity: 0%;
+        margin-top: 2rem
     }
 
     0%, 100%{
-        opacity: 100%;
+        margin-top: 0rem;
     }
 }
