@@ -2,6 +2,7 @@ header{
     position: fixed;
     width: 100%;
     transition: 0.5s;
+    z-index: 100;
 }
 
 .header{    
@@ -99,5 +100,5 @@ nav ul a li::after{
 }
 
 .activeHeader .header{
-    padding: 0.5rem 1rem;
+    padding: 0 1rem;
 }

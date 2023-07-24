@@ -1,3 +1,33 @@
 #about{
     background-color: white;
+    padding: 8rem 2rem;
+}
+
+.about{
+    gap: 4rem;
+}
+
+.aboutDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.aboutDescription h1{
+    font-size: 2.8rem;
+}
+
+
+.aboutDescription button{
+    padding: 1rem 4rem;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    transition: 0.2s;
+}
+
+.aboutDescription button:hover{
+    background-color: rgb(230, 230, 230);
 }

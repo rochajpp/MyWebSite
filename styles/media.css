@@ -1,5 +1,4 @@
-@media (min-width: 0px) and (max-width: 321px){
-    
+@media (max-height: 568px) and (max-width: 321px){
 }
 
 /*Media para quando o CELULARES estiver DEITADO*/
@@ -8,7 +7,7 @@
 }
 
 /*Media feita para responsividade de CELULARES*/
-@media screen and (max-width: 892px) and (min-height: 400px){
+@media screen and (max-width: 892px){
     
     .header nav{
         display: none;
@@ -51,6 +50,18 @@
     #point{
         display: none;
     }
+   
+    .about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutDescription{
+        align-items: center;
+    }
+    .about img{
+        width: 15rem;
+    }
 
 }
 
@@ -67,6 +78,9 @@
     .home h2{
         font-size: 2.5rem;
         color: blue;
+    }
+    .about img{
+        width: 20rem;
     }
 
 }

@@ -1,7 +1,13 @@
+#home{
+    height: 100vh
+}
+
 .home{
     flex-direction: column;
     padding: 0 2rem;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .logoHome{
@@ -17,7 +23,7 @@
     position: absolute;
     right: 50%;
     left: 50%;
-    top: 74%;
+    top: 77%;
     transform: translate(-50%, 50%);
     animation: pointerAnimation 1s infinite;
     width: 6rem;

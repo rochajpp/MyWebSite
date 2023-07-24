@@ -1,8 +1,6 @@
 const body = document.querySelector("body");
 
-document.querySelector(".logoResp").onclick = () => {
-    body.classList.toggle("menu");
-}
+
 
 const header = document.querySelector("header");
 
