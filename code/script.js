@@ -4,19 +4,10 @@ document.querySelector(".logoResp").onclick = () => {
     body.classList.toggle("menu");
 }
 
+const header = document.querySelector("header");
 
-function Writer(element){
-
-    const arrayList = element.innerHTML.split("");
-
-    element.innerHTML = "";
-
-    setTimeout(() => {  
-        arrayList.forEach((letters, index) => {
-            setTimeout(() => {
-                element.innerHTML += letters;
-            }, 50 * index)
-        });
-    
-    }, 2000);
+function activeHeader(){
+    header.classList.toggle("activeHeader", scrollY > 0);
 }
+
+document.addEventListener("scroll", activeHeader);

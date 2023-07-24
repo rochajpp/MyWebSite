@@ -16,7 +16,7 @@ body, html{
     z-index: -100;
     width: 100%;
     height: 100%;
-    filter: contrast(50%)
+    filter: blur(2px) contrast(50%);
 }
 
 section{

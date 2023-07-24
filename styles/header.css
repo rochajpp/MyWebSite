@@ -1,6 +1,7 @@
 header{
     position: fixed;
     width: 100%;
+    transition: 0.5s;
 }
 
 .header{    
@@ -8,6 +9,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
+    transition: 0.5s;
 }
 .menu .logoArea .logoResp{
     z-index: 1000;
@@ -58,12 +60,11 @@ header{
 
 nav ul{
     display: flex;
-    gap: 4rem;
+    gap: 3rem;
 }
 
 nav ul a{
     position: relative;
-
     text-decoration: none;
     color: black;
     
@@ -92,3 +93,11 @@ nav ul a li::after{
     transition: 0.5s ease-in-out;
 }
 
+.activeHeader{
+    border-bottom: 1px solid black;
+    backdrop-filter: blur(10px);
+}
+
+.activeHeader .header{
+    padding: 0.5rem 1rem;
+}
