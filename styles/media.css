@@ -63,6 +63,10 @@
         width: 15rem;
     }
 
+    .cards{
+        flex-direction: column;
+    }
+
 }
 
 /*Media para que quando a página for aberta em COMPUTADOR*/

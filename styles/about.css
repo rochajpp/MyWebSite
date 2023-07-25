@@ -1,6 +1,6 @@
 #about{
     background-color: white;
-    padding: 5rem 2rem;
+    padding: 8rem 2rem;
 }
 
 .about{
@@ -25,9 +25,9 @@
     border: 1px solid black;
     cursor: pointer;
     display: flex;
-    transition: 0.2s;
+    transition: 0.5s;
 }
 
 .aboutDescription button:hover{
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(200, 200, 200);
 }
