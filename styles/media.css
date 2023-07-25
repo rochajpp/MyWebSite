@@ -7,7 +7,7 @@
 }
 
 /*Media feita para responsividade de CELULARES*/
-@media screen and (max-width: 892px){
+@media screen and (max-width: 896px){
     
     .header nav{
         display: none;
@@ -76,11 +76,13 @@
     }
 
     .home h2{
-        font-size: 2.5rem;
-        color: blue;
+        font-size: 2rem;
     }
     .about img{
         width: 20rem;
+    }
+    .menu{
+        overflow: visible;
     }
 
 }

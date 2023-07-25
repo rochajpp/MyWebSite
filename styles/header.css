@@ -15,8 +15,10 @@ header{
 .menu .logoArea .logoResp{
     z-index: 1000;
 }
-.menu .menuArea{
-    
+.menu{
+    overflow: hidden;
+}
+.menu .menuArea{   
     top: 0;
     transition: 0.5s;
 }
@@ -94,7 +96,7 @@ nav ul a li::after{
     transition: 0.5s ease-in-out;
 }
 
-.activeHeader{
+.activeHeader .header{
     border-bottom: 1px solid black;
     backdrop-filter: blur(10px);
 }
