@@ -15,15 +15,19 @@
     text-decoration: none;
     color: black;
 }
+
+.projects a:hover{
+    text-decoration: underline;
+}
+
 .cards{
     display: flex;
     gap: 2rem;
 }
 
-.card {   
+.card {
     padding: 12rem 10rem;
-    perspective: 1000px;
-    cursor: pointer; 
+    perspective: 1000px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,6 +82,11 @@
     background-size: cover;
 }
 
+.card2 .back{
+    background: url("/img/apiNasa.jpeg") center no-repeat;
+    background-size: cover;
+}
+
 .back a button:hover{
     background-color: rgb(78, 78, 78);
 }
@@ -88,10 +97,14 @@
   
 .card:hover .back {
     transform: rotateY(0); 
+}.tec{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-
-#html, #css, #js{ 
+#html, #css, #js, #node{ 
     font-weight: bold;
     border: 1px solid black;
     padding: 0.01rem 0.5rem;
@@ -104,4 +117,7 @@
 }
 #js{
     background-color: rgb(255, 255, 0, 0.628);
+}
+#node{
+    background-color: greenyellow
 }

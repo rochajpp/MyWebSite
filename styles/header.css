@@ -69,11 +69,8 @@ nav ul{
 nav ul a{
     position: relative;
     text-decoration: none;
-    color: black;
-    
+    color: black;   
 }
-
-
 
 nav ul a:hover ::after{
     width: 100%;

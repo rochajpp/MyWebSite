@@ -93,4 +93,7 @@
 
 /*Media feita para dimensão ENTRE a de CELULAR e a de COMPUTADOR*/
 @media screen and (min-width: 893px) and (max-width: 1226px){
+    .cards{
+        flex-direction: column;
+    }
 }
