@@ -1,3 +1,5 @@
+/*Configuração geral do header*/
+
 header{
     position: fixed;
     width: 100%;
@@ -12,6 +14,18 @@ header{
     padding: 1rem 2rem;
     transition: 0.5s;
 }
+
+.activeHeader .header{
+    border-bottom: 1px solid black;
+    backdrop-filter: blur(10px);
+}
+
+.activeHeader .header{
+    padding: 0 1rem;
+}
+/*---------------------------------*/
+
+/*Configuração do menu responsivo*/
 .menu .menuArea{   
     top: 0;
     transition: 0.5s;
@@ -54,7 +68,9 @@ header{
     display: none;
 }
 
+/*--------------------------*/
 
+/* Configuração do menu primário */
 
 .logoArea{
     display: flex;
@@ -99,11 +115,6 @@ header{
     transition: 0.5s ease-in-out;
 }
 
-.activeHeader .header{
-    border-bottom: 1px solid black;
-    backdrop-filter: blur(10px);
-}
 
-.activeHeader .header{
-    padding: 0 1rem;
-}
+
+/*---------------------------*/
