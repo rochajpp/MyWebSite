@@ -3,6 +3,9 @@ const body = document.querySelector("body");
 document.querySelector(".logoResp").onclick = () => {
     body.classList.toggle("menu");
 }
+document.querySelector(".logoRespMenu").onclick = () => {
+    body.classList.toggle("menu");
+}
 document.querySelector(".homeMenu").onclick = () => {
     body.classList.toggle("menu");
 }
