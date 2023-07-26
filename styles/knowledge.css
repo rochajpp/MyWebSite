@@ -4,16 +4,38 @@
 }
 
 .slide{
+    position: relative;
     border: 1px solid black;
-    width: 20rem;
-    padding: 2rem 0;
+    width: 24rem;
+    padding: 1rem 0;
     display: flex;
-    gap: 2rem;
     justify-content: center;
+    align-items: center;
     overflow: hidden;
-    backdrop-filter: blur(10px);
-    background-blend-mode: screen;
 }
-.slide img{
-    width: 8rem;
+.images img{
+    width: 14rem;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    position: relative;
+}
+
+.slide .buttons{
+    position: absolute;
+    top: 50%;
+    transform: translate(50%, -50%);
+    z-index: 20;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.backButton{
+    left: 0.1rem;
+}
+.nextButton{
+    right: 2rem;
 }
