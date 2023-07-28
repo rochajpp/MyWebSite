@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="/styles/about.css">
     <link rel="stylesheet" type="text/css" href="/styles/projects.css">
     <link rel="stylesheet" type="text/css" href="/styles/knowledge.css">
+    <link rel="stylesheet" type="text/css" href="/styles/contact.css">
     <!-- <link rel="stylesheet" type="text/css" href="/styles/popupLanguage.css"> -->
 
     <!--Defining the logo link-->
@@ -38,7 +39,7 @@
                     <ul>
                         <a href="#"><li>Início</li></a>
                         <a href="#about"><li>Sobre mim</li></a>
-                        <a href="#projects"><li>Pojetos</li></a>
+                        <a href="#projects"><li>Projetos</li></a>
                         <a href="#knowledge"><li>Conhecimentos</li></a>
                         <a href="#contact"><li>Contato</li></a>
                     </ul>
@@ -52,7 +53,7 @@
                         <img class="logoRespMenu logo" src="/img/logoBlack.png">
                         <a class="homeMenu" href="#"><li>Início</li></a>
                         <a class="aboutMenu" href="#about"><li>Sobre mim</li></a>
-                        <a class="projectsMenu" href="#projects"><li>Pojetos</li></a>
+                        <a class="projectsMenu" href="#projects"><li>Projetos</li></a>
                         <a class="knowledgeMenu" href="#knowledge"><li>Conhecimentos</li></a>
                         <a class="contactMenu" href="#contact"><li>Contato</li></a>
                     </ul>
@@ -265,8 +266,33 @@
                             </div>            
                         </div>
                     </div>
+                </div>          
+            </div>
+        </section>
+        <section id="contact">
+            <h1>Contato</h1>
+            <div class="content contact">
+                
+                <form action="https://formsubmit.co/contato@joaopaulorocha.com" method="POST">
+                    <div class="infoMessage">
+                        <div class="info infoName">    
+                            <label class="labelName">Nome:</label>     
+                            <input name="name" type="text" class="name" id="name" required>
+                        </div>  
+                        <div class="info infoEmail">
+                            <label>E-mail:</label>
+                            <input name="email" type="email" class="email" id="email" required>
+                        </div>
+                    </div>       
+                    <textarea name="message" class="textMessage" id="textMessage" placeholder="Sua mensagem..." rows="10" required></textarea>
+                    <button type="submit" class="buttonForm">Enviar</button>
+                    
+                    <input type="hidden" name="_captcha" value="false">
+                    <!-- <input type="hidden" name="_next" value="Página de redirecionamento">       -->
+                </form>
+                <div class="infoContact">
+                    
                 </div>
-               
             </div>
         </section>
     </div>
