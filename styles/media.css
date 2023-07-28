@@ -67,10 +67,27 @@
         flex-direction: column;
     }
 
+    .slide{
+        height: 20rem;
+        overflow: scroll;
+        width: 15rem;
+    
+        
+    }
+
+    .slide::-webkit-scrollbar {
+        width: 0px; /* Largura da scrollbar */
+      }     
+
+    .cardSlide{
+        width: 100%;
+        height: 100%;
+    }
+
 }
 
 /*Media para que quando a página for aberta em COMPUTADOR*/
-@media screen and (min-width: 1226px){
+@media screen and (min-width: 897px){
     .menuArea{
         display: none;
     }
@@ -87,6 +104,14 @@
     }
     .menu{
         overflow: visible;
+    }
+
+    .slide{
+        padding: 2rem;
+    }
+    .cardSlide{
+        width: 15rem;
+        height: 18rem;
     }
 
 }

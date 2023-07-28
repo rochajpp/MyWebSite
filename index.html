@@ -22,6 +22,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <title>Home | João Paulo Rocha</title>
 </head>
 <body>
@@ -71,7 +73,7 @@
         </section>
         <section id="about">
             <div class="content about">
-                <img src="/img/perfil.png">
+                <img class="perfil" src="/img/perfil.png">
                 
                 <div class="aboutDescription">
                     <h1>Sobre mim</h1>
@@ -85,13 +87,13 @@
                     </p>
                     <br>
                     <p class="desc2">
-                        Estou animado em fazer parte de uma equipe onde eu possa colaborar com minhas habilidade e</p>
+                        Estou animado em fazer parte de uma equipe onde eu possa colaborar com minhas habilidade e
                         principalmente obter mais experiência e conhecimentos.
                     </p>
                     <br>
                     <p class="desc3">Minha meta é evoluir e crescer profissionalmente usando das minhas habilidade para fazer a difereça sempre.</p>
                     <br>
-                    <a><button>Abrir Currículo</button></a>
+                    <a class="cvButton"><button>Abrir Currículo</button></a>
                 </div>
             </div>
         </section>
@@ -178,17 +180,90 @@
 
                 </div>
                 <div class="technologies">
-                    <div class="backEnd">
+                    <div class="tech backEnd">
                         <h1>Back-end</h1>
-                        <div class="slide">        
-                            <img class="netcore" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" />
-                            <img clas="nodejs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
-                            <img class="express" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />
-                            <img class="spring" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" />
+                        <br>
+                        <div class="slide">
+                            <div class="cardSlide">
+                                <img class="netcore" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" />
+                                <br>
+                                <h3> Microsoft .NET Core</h3>
+                                <p>Framework</p>
+                            </div>
+                            <div class="cardSlide">
+                                <img class="nodejs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+                                <br>
+                                <h3>Node.js</h3>
+                                <p>Plataforma de desenvolvimento</p>
+                            </div>
+                            <div class="cardSlide">
+                                <img class="express" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />
+                                <br>
+                                <h3>Express</h3>
+                                <p>Framework</p>
+                            </div>
+                            <div class="cardSlide">
+                                <img class="spring" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" />
+                                <br>
+                                <h3>Spring Boot</h3>
+                                <p>Framework</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="frontEnd">
+                    <div class="tech frontEnd">
                         <h1>Front-end</h1>
+                        <br>
+                        <div class="slide">
+                            <div class="cardSlide">
+                                <img class="html" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"  />
+                               
+                                <h3>HTML</h3>
+                                <p>Linguagem de marcação</p>
+                            </div>
+                            <div class="cardSlide">
+                                <img class="css" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+                                
+                                <h3>CSS</h3>
+                                <p>Linguagem de estilo</p>
+                            </div>
+                            <div class="cardSlide">
+                                <img class="js" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                             
+                                <h3>JavaScript</h3>
+                                <p>Linguagem de programação</p>
+                            </div>
+                            <div class="cardSlide">
+                                <img class="react" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+                             
+                                <h3>React.js</h3>
+                                <p>Framework</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tech database">
+                        <h1>Banco de Dados</h1>
+                        <br>
+                        <div class="slide">
+                            <div class="cardSlide">
+                                
+                                <img class="mongodb" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" />  
+                                <h3>MongoDB</h3>
+                                <p>SGBD-NoSQL</p>
+                            </div>
+                            <div class="cardSlide">
+
+                                <img class="mysql" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
+                                          
+                                <h3>MySQL</h3>
+                                <p>SGBDR</p>
+                            </div>
+                            <div class="cardSlide">
+                                <img class="js" src="/img/sqlServer.png" />
+                             
+                                <h3>SQL Server</h3> 
+                                <p>SGBDR</p>
+                            </div>            
+                        </div>
                     </div>
                 </div>
                
@@ -198,5 +273,11 @@
 
     <script src="/code/script.js"></script>
     <script src="/code/menu.js"></script>
+    <script src="/code/slide.js"></script>
+    <script src="/code/scrollReveal.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>     
+    
 </body>
 </html>
