@@ -9,13 +9,12 @@
     gap: 4rem;
 }
 
-.backEnd h1, .frontEnd h1{
+.tech h1{
     text-align: center;
     font-size: 2rem;
 }
 
 .slide{
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
