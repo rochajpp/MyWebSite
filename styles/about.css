@@ -45,6 +45,9 @@
     font-size: 2.8rem;
 }
 
+.cvButton{
+    text-decoration: none;
+}
 
 .aboutDescription button{
     padding: 1rem 4rem;
