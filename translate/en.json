@@ -1,0 +1,36 @@
+{
+    "header":{
+        "primaryNav":{
+            "home": "Home",
+            "about": "About",
+            "projects": "Projects",
+            "knowledge": "Knowledge",
+            "contact": "Contacts"
+        },
+
+        "SecNav":{
+            "homeMenu": "Home",
+            "aboutMenu": "About",
+            "projectsMenu": "Projects",
+            "knowledgeMenu": "Knowledge",
+            "contactMenu": "Contacts"
+        }
+    },
+
+    "sectionHome":{
+        "h1PriPart": "Developing innovative solutions with passion",
+        "h1SecPart": "and accuracy to positively impact the digital world.",
+        "office": "FullStack Developper"
+    },
+
+    "sectionAbout":{
+        "desc1": "My name is João Paulo, I'm a FullStack developer, passionate about programming and challenges. I am very dedicated and motivated, I always seek experience and knowledge, I like to learn more and more. Currently studying Systems Analysis and Development, and with just over 1 year professional experience, and, working in companies, developing some projects, I developed solid skills in Node.js, HTML, CSS, JavaScript, React.js, ASP.NET Core, MySQL, SQL Server and MongoDB.",
+        "desc2": "I am excited to be part of a team where I can collaborate with my ability and mainly get more experience and knowledge.",
+        "desc3": "My goal is to evolve and grow professionally using my skills to always make a difference.",
+        "descButtonAbout": "Open CV"
+    },
+
+    "sectionProjects":{
+        
+    }
+}
