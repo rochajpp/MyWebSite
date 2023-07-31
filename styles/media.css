@@ -84,6 +84,14 @@
         height: 100%;
     }
 
+    .footer{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .infoContact div {
+        justify-content: center;
+    }
+
 }
 
 /*Media para que quando a página for aberta em COMPUTADOR*/

@@ -19,3 +19,6 @@ scrl.reveal(".cvButton", {duration: 2000, origin: 'bottom'});
 
 //Home
 scrl.reveal(".home", {duration: 2000, origin:'bottom'})
+
+//Contact
+scrl.reveal(".contact", {duration: 2000, origin:'bottom'});
