@@ -31,6 +31,25 @@
     },
 
     "sectionProjects":{
-        
+        "titleProjects": "Projects",
+    
+        "descPoject1": "Apple website clone project made by me, responsive, I took as a basis the design of the website of Apple at the time I started this project.",
+
+        "descPoject2": "Astronomy application in Node.js using some API's using mainly the API's from nasa.",
+        "descPoject22": "The application shows some news and curiosities about the universe and Earth.",
+
+        "descPoject3": "My old portfolio, I did it in a waymore 'relaxed' using HTML, CSS and JavaScript talking about me and showing my projects."
+    },
+
+    "sectionKnowledge": {
+        "subtitleNode": "Development platform",
+        "subtitleHTML": "Markup language",
+        "subtitleCSS": "Style language",
+        "subtitleJs": "Programming language"
+    },
+
+    "sectionContact":{
+        "labelName": "Name:",
+        "buttonForm": "Send"
     }
 }
