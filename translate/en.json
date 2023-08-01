@@ -24,6 +24,7 @@
     },
 
     "sectionAbout":{
+        "titleAbout": "About me",
         "desc1": "My name is João Paulo, I'm a FullStack developer, passionate about programming and challenges. I am very dedicated and motivated, I always seek experience and knowledge, I like to learn more and more. Currently studying Systems Analysis and Development, and with just over 1 year professional experience, and, working in companies, developing some projects, I developed solid skills in Node.js, HTML, CSS, JavaScript, React.js, ASP.NET Core, MySQL, SQL Server and MongoDB.",
         "desc2": "I am excited to be part of a team where I can collaborate with my ability and mainly get more experience and knowledge.",
         "desc3": "My goal is to evolve and grow professionally using my skills to always make a difference.",
@@ -33,22 +34,25 @@
     "sectionProjects":{
         "titleProjects": "Projects",
     
-        "descPoject1": "Apple website clone project made by me, responsive, I took as a basis the design of the website of Apple at the time I started this project.",
+        "descProject1": "Apple website clone project made by me, responsive, I took as a basis the design of the website of Apple at the time I started this project.",
 
-        "descPoject2": "Astronomy application in Node.js using some API's using mainly the API's from nasa.",
-        "descPoject22": "The application shows some news and curiosities about the universe and Earth.",
+        "descProject2": "Astronomy application in Node.js using some API's using mainly the API's from nasa.",
+        "descProject22": "The application shows some news and curiosities about the universe and Earth.",
 
-        "descPoject3": "My old portfolio, I did it in a waymore 'relaxed' using HTML, CSS and JavaScript talking about me and showing my projects."
+        "descProject3": "My old portfolio, I did it in a waymore 'relaxed' using HTML, CSS and JavaScript talking about me and showing my projects.",
+        "repositories": "Repositories"
     },
 
     "sectionKnowledge": {
         "subtitleNode": "Development platform",
         "subtitleHTML": "Markup language",
         "subtitleCSS": "Style language",
-        "subtitleJs": "Programming language"
+        "subtitleJs": "Programming language",
+        "dbTitle": "Database"
     },
 
     "sectionContact":{
+        "titleContact": "Contact",
         "labelName": "Name:",
         "buttonForm": "Send"
     }
