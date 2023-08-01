@@ -1,11 +1,11 @@
 {
     "header":{
         "primaryNav":{
-            "home": "Home",
-            "about": "About",
-            "projects": "Projects",
-            "knowledge": "Knowledge",
-            "contact": "Contacts"
+            "homeN": "Home",
+            "aboutN": "About",
+            "projectsN": "Projects",
+            "knowledgeN": "Knowledge",
+            "contactN": "Contacts"
         },
 
         "SecNav":{
