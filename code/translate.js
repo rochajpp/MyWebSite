@@ -9,9 +9,9 @@ function getData(file){
 }
 
 
-
-function translateToEn(){
-    const data = getData("/translate/en.json");
+ 
+function translate(language){
+    const data = getData("/translate/" + language + ".json");
 
     document.querySelector(".homeN").innerHTML = data.header.primaryNav.homeN;
     document.querySelector(".aboutN").innerHTML = data.header.primaryNav.aboutN;
@@ -60,3 +60,15 @@ function translateToEn(){
 
 }
 
+
+const select = document.querySelector("#option");
+const selectResp = document.querySelector("#optionResp");
+
+select.addEventListener("change", function() {
+    let option = select.value;
+    translate(option);
+});
+selectResp.addEventListener("change", function() {
+    let option = selectResp.value;
+    translate(option);
+});

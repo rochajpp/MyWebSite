@@ -7,7 +7,7 @@
 }
 
 /*Media feita para responsividade de CELULARES*/
-@media screen and (max-width: 896px){
+@media screen and (max-width: 1020px){
     
     .header nav{
         display: none;
