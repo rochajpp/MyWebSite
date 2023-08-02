@@ -1,0 +1,59 @@
+{
+        "header":{
+            "primaryNav":{
+                "homeN": "Startseite",
+                "aboutN": "Über",
+                "projectsN": "Projekte",
+                "knowledgeN": "Wissen",
+                "contactN": "Kontakte"
+        },
+ 
+        "SecNav":{
+            "homeMenu": "Startseite",
+            "aboutMenu": "Über",
+            "projectsMenu": "Projekte",
+            "knowledgeMenu": "Wissen",
+            "contactMenu": "Kontakte"
+        }
+    },
+    
+    "sectionHome":{
+        "h1PriPart": "Entwicklung innovativer Lösungen mit Leidenschaft",
+        "h1SecPart": "und Genauigkeit, um die digitale Welt positiv zu beeinflussen.",
+        "office": "FullStack-Entwickler"
+    },
+    
+    "sectionAbout":{
+        "titleAbout": "Über mich",
+        "desc1": "Mein Name ist João Paulo, ich bin ein FullStack-Entwickler und leidenschaftlich an Programmierung und Herausforderungen interessiert. Ich bin sehr engagiert und motiviert, ich suche immer nach Erfahrungen und Wissen und lerne gerne immer mehr dazu. Derzeit studiere ich Systemanalyse und -entwicklung und habe mit etwas mehr als 1 Jahr Berufserfahrung in Unternehmen, in denen ich einige Projekte entwickelt habe, solide Fähigkeiten in Node.js, HTML, CSS, JavaScript, React.js, ASP.NET Core, MySQL, SQL Server und MongoDB erworben.",
+        "desc2": "Ich freue mich darauf, Teil eines Teams zu sein, in dem ich meine Fähigkeiten einbringen und vor allem mehr Erfahrungen und Wissen sammeln kann.",
+        "desc3": "Mein Ziel ist es, mich beruflich weiterzuentwickeln und zu wachsen und meine Fähigkeiten einzusetzen, um stets einen Unterschied zu machen.",
+        "descButtonAbout": "Lebenslauf öffnen"
+    },
+    
+    "sectionProjects":{
+        "titleProjects": "Projekte",
+    
+        "descProject1": "Apple-Website-Klonprojekt, das von mir erstellt wurde und responsiv ist. Ich habe das Design der Apple-Website als Grundlage für dieses Projekt verwendet.",
+    
+        "descProject2": "Astronomie-Anwendung in Node.js, die einige APIs verwendet, hauptsächlich von der NASA.",
+        "descProject22": "Die Anwendung zeigt einige Nachrichten und Kuriositäten über das Universum und die Erde.",
+    
+        "descProject3": "Mein altes Portfolio, das ich in einer etwas 'lockeren' Art und Weise erstellt habe, wobei ich HTML, CSS und JavaScript verwendet habe, um über mich selbst zu sprechen und meine Projekte zu zeigen.",
+        "repositories": "Repositories"
+    },
+    
+    "sectionKnowledge": {
+        "subtitleNode": "Entwicklungsumgebung",
+        "subtitleHTML": "Markup-Sprache",
+        "subtitleCSS": "Stilsprache",
+        "subtitleJs": "Programmiersprache",
+        "dbTitle": "Datenbank"
+    },
+    
+    "sectionContact":{
+        "titleContact": "Kontakt",
+        "labelName": "Name:",
+        "buttonForm": "Senden"
+    }
+    }

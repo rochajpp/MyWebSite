@@ -1,0 +1,60 @@
+{
+    "header":{
+        "primaryNav":{
+            "homeN": "Hjem",
+            "aboutN": "Om",
+            "projectsN": "Prosjekter",
+            "knowledgeN": "Kunnskap",
+            "contactN": "Kontakter"
+        },
+    
+ 
+        "SecNav":{
+            "homeMenu": "Hjem",
+            "aboutMenu": "Om",
+            "projectsMenu": "Prosjekter",
+            "knowledgeMenu": "Kunnskap",
+            "contactMenu": "Kontakter"
+        }
+    },
+    
+    "sectionHome":{
+        "h1PriPart": "Utvikling av innovative løsninger med lidenskap",
+        "h1SecPart": "og presisjon for å påvirke den digitale verden positivt.",
+        "office": "FullStack-utvikler"
+    },
+    
+    "sectionAbout":{
+        "titleAbout": "Om meg",
+        "desc1": "Mitt navn er João Paulo, jeg er en FullStack-utvikler, lidenskapelig opptatt av programmering og utfordringer. Jeg er veldig dedikert og motivert, jeg søker alltid erfaring og kunnskap, og jeg liker å lære mer og mer. For tiden studerer jeg systemanalyse og utvikling, og med litt over 1 års profesjonell erfaring og arbeid i selskaper, der jeg har utviklet noen prosjekter, har jeg utviklet solide ferdigheter innen Node.js, HTML, CSS, JavaScript, React.js, ASP.NET Core, MySQL, SQL Server og MongoDB.",
+        "desc2": "Jeg er spent på å være en del av et team der jeg kan bidra med mine evner og hovedsakelig få mer erfaring og kunnskap.",
+        "desc3": "Målet mitt er å utvikle meg og vokse faglig ved å bruke mine ferdigheter til å alltid utgjøre en forskjell.",
+        "descButtonAbout": "Åpne CV"
+    },
+    
+    "sectionProjects":{
+        "titleProjects": "Prosjekter",
+    
+        "descProject1": "Apple-nettstedsklonprosjekt laget av meg, responsivt. Jeg tok utgangspunkt i designet av Apple-nettstedet da jeg startet dette prosjektet.",
+    
+        "descProject2": "Astronomiapplikasjon i Node.js som bruker noen API-er, hovedsakelig fra NASA.",
+        "descProject22": "Applikasjonen viser noen nyheter og nysgjerrigheter om universet og jorden.",
+    
+        "descProject3": "Min gamle portefølje, jeg laget den på en mer 'avslappet' måte ved å bruke HTML, CSS og JavaScript for å fortelle om meg selv og vise mine prosjekter.",
+        "repositories": "Repositorier"
+    },
+    
+    "sectionKnowledge": {
+        "subtitleNode": "Utviklingsplattform",
+        "subtitleHTML": "Markup-språk",
+        "subtitleCSS": "Stilstspråk",
+        "subtitleJs": "Programmeringsspråk",
+        "dbTitle": "Database"
+    },
+    
+    "sectionContact":{
+        "titleContact": "Kontakt",
+        "labelName": "Navn:",
+        "buttonForm": "Send"
+    }
+    }

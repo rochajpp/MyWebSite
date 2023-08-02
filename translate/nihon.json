@@ -1,0 +1,57 @@
+{
+    "header": {
+      "primaryNav": {
+        "homeN": "ホーム",
+        "aboutN": "約",
+        "projectsN": "プロジェクト",
+        "knowledgeN": "知識",
+        "contactN": "連絡先"
+      },
+  
+      "SecNav": {
+        "homeMenu": "ホーム",
+        "aboutMenu": "約",
+        "projectsMenu": "プロジェクト",
+        "knowledgeMenu": "知識",
+        "contactMenu": "連絡先"
+      }
+    },
+  
+    "sectionHome": {
+      "h1PriPart": "情熱と正確さを持って革新的なソリューションを開発する",
+      "h1SecPart": "デジタルワールドにポジティブな影響を与えるために。",
+      "office": "フルスタックデベロッパー"
+    },
+  
+    "sectionAbout": {
+      "titleAbout": "私について",
+      "desc1": "私の名前はジョアン・パウロです。フルスタック開発者であり、プログラミングとチャレンジに情熱を注いでいます。私は非常に献身的でやる気があり、常に経験と知識を求めています。学んで成長することが好きです。現在はシステム分析と開発を学んでおり、1年以上の職業経験があり、いくつかのプロジェクトを開発し、Node.js、HTML、CSS、JavaScript、React.js、ASP.NET Core、MySQL、SQL Server、およびMongoDBで確固たるスキルを身につけました。",
+      "desc2": "私は自分の能力を活かし、主に経験と知識をさらに得ることができるチームの一員であることをとても楽しみにしています。",
+      "desc3": "私の目標は、常に差をつけるために私のスキルを活用してプロフェッショナルに成長することです。",
+      "descButtonAbout": "CVを開く"
+    },
+  
+    "sectionProjects": {
+      "titleProjects": "プロジェクト",
+      "descProject1": "私が作成したAppleのウェブサイトのクローンプロジェクトで、レスポンシブ対応しています。このプロジェクトを始めた当時のAppleのウェブサイトのデザインを基にしています。",
+      "descProject2": "NASAのAPIを主に使用したNode.jsでの天文学アプリケーションです。",
+      "descProject22": "このアプリケーションは宇宙と地球に関するニュースや興味深い事実を表示します。",
+      "descProject3": "以前のポートフォリオで、私について語り、私のプロジェクトを紹介するためにHTML、CSS、JavaScriptを使用してリラックスした雰囲気で作成しました。",
+      "repositories": "リポジトリ"
+    },
+  
+    "sectionKnowledge": {
+      "subtitleNode": "開発プラットフォーム",
+      "subtitleHTML": "マークアップ言語",
+      "subtitleCSS": "スタイル言語",
+      "subtitleJs": "プログラム言語",
+      "dbTitle": "データベース"
+    },
+  
+    "sectionContact": {
+      "titleContact": "連絡先",
+      "labelName": "名前：",
+      "buttonForm": "送信"
+    }
+  }
+  

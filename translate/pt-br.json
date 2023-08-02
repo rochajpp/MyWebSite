@@ -1,0 +1,59 @@
+{
+    "header":{
+        "primaryNav":{
+            "homeN": "Início",
+            "aboutN": "Sobre",
+            "projectsN": "Projetos",
+            "knowledgeN": "Conhecimento",
+            "contactN": "Contatos"
+        },
+    
+        "SecNav":{
+            "homeMenu": "Início",
+            "aboutMenu": "Sobre",
+            "projectsMenu": "Projetos",
+            "knowledgeMenu": "Conhecimento",
+            "contactMenu": "Contatos"
+        }
+    },
+    
+    "sectionHome":{
+        "h1PriPart": "Desenvolvendo soluções inovadoras com paixão",
+        "h1SecPart": "e precisão para impactar positivamente o mundo digital.",
+        "office": "Desenvolvedor FullStack"
+    },
+    
+    "sectionAbout":{
+        "titleAbout": "Sobre mim",
+        "desc1": "Meu nome é João Paulo, sou um desenvolvedor FullStack, apaixonado por programação e desafios. Sou muito dedicado e motivado, sempre busco experiência e conhecimento, gosto de aprender cada vez mais. Atualmente, estou estudando Análise e Desenvolvimento de Sistemas e, com um pouco mais de 1 ano de experiência profissional, trabalhando em empresas e desenvolvendo alguns projetos, adquiri habilidades sólidas em Node.js, HTML, CSS, JavaScript, React.js, ASP.NET Core, MySQL, SQL Server e MongoDB.",
+        "desc2": "Estou animado em fazer parte de uma equipe onde posso colaborar com minhas habilidades e, principalmente, adquirir mais experiência e conhecimento.",
+        "desc3": "Meu objetivo é evoluir e crescer profissionalmente, utilizando minhas habilidades para sempre fazer a diferença.",
+        "descButtonAbout": "Abrir CV"
+    },
+    
+    "sectionProjects":{
+        "titleProjects": "Projetos",
+    
+        "descProject1": "Projeto de clone do site da Apple feito por mim, responsivo. Tomei como base o design do site da Apple na época em que iniciei este projeto.",
+    
+        "descProject2": "Aplicativo de astronomia em Node.js usando algumas API's, principalmente as API's da NASA.",
+        "descProject22": "O aplicativo exibe algumas notícias e curiosidades sobre o universo e a Terra.",
+    
+        "descProject3": "Meu antigo portfólio, fiz de uma maneira mais 'relaxada', usando HTML, CSS e JavaScript para falar sobre mim e mostrar meus projetos.",
+        "repositories": "Repositórios"
+    },
+    
+    "sectionKnowledge": {
+        "subtitleNode": "Plataforma de desenvolvimento",
+        "subtitleHTML": "Linguagem de marcação",
+        "subtitleCSS": "Linguagem de estilo",
+        "subtitleJs": "Linguagem de programação",
+        "dbTitle": "Banco de dados"
+    },
+    
+    "sectionContact":{
+        "titleContact": "Contato",
+        "labelName": "Nome:",
+        "buttonForm": "Enviar"
+    }
+    }
