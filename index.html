@@ -38,11 +38,11 @@
                 <img class="logoResp logo" src="/img/logoBlack.png">
                 <nav class="primaryNav">
                     <ul>
-                        <a href="#"><li>Início</li></a>
-                        <a href="#about"><li>Sobre mim</li></a>
-                        <a href="#projects"><li>Projetos</li></a>
-                        <a href="#knowledge"><li>Conhecimentos</li></a>
-                        <a href="#contact"><li>Contato</li></a>
+                        <a href="#"><li class="homeN">Início</li></a>
+                        <a href="#about"><li class="aboutN">Sobre mim</li></a>
+                        <a href="#projects"><li class="projectsN">Projetos</li></a>
+                        <a href="#knowledge"><li class="knowledgeN">Conhecimentos</li></a>
+                        <a href="#contact"><li class="contactN">Contato</li></a>
                     </ul>
                 </nav>
             </div>
@@ -52,11 +52,11 @@
                 <nav>
                     <ul>
                         <img class="logoRespMenu logo" src="/img/logoBlack.png">
-                        <a class="homeMenu" href="#"><li>Início</li></a>
-                        <a class="aboutMenu" href="#about"><li>Sobre mim</li></a>
-                        <a class="projectsMenu" href="#projects"><li>Projetos</li></a>
-                        <a class="knowledgeMenu" href="#knowledge"><li>Conhecimentos</li></a>
-                        <a class="contactMenu" href="#contact"><li>Contato</li></a>
+                        <a class="homeMenu" href="#"><li class="homeMenu">Início</li></a>
+                        <a class="aboutMenu" href="#about"><li class="aboutMenu">Sobre mim</li></a>
+                        <a class="projectsMenu" href="#projects"><li class="projectsMenu">Projetos</li></a>
+                        <a class="knowledgeMenu" href="#knowledge"><li class="knowledgeMenu">Conhecimentos</li></a>
+                        <a class="contactMenu" href="#contact"><li class="contactMenu">Contato</li></a>
                     </ul>
                 </nav>
             </div>
@@ -65,10 +65,10 @@
             <div class="content home">
                 <img class="logoHome" src="/img/logoBlack.png">
                 <br>
-                <h1>Desenvolvendo soluções inovadoras com paixão </h1>
-                <h1 id="h1SecPart">e precisão para impactar positivamente o mundo digital.</h1>
+                <h1 class="h1PriPart">Desenvolvendo soluções inovadoras com paixão </h1>
+                <h1 class="h1SecPart" id="h1SecPart">e precisão para impactar positivamente o mundo digital.</h1>
                 <br>
-                <h2><text>João Paulo</text> <text id="point">•</text> <text>Desenvolvedor FullStack</text></h2>
+                <h2><text>João Paulo</text> <text id="point">•</text> <text class="office">Desenvolvedor FullStack</text></h2>
                 <br>
                 <a href="#about"><img class="pointer" src="/img/pointer.png"></a>
             </div>
@@ -85,11 +85,11 @@
                 </div>
                 
                 <div class="aboutDescription">
-                    <h1>Sobre mim</h1>
+                    <h1 class="titleAbout">Sobre mim</h1>
                     <br>
                     <p class="desc1">
-                        Meu nome é João Paulo, sou desenvolvedor FullStack, com uma paixão por programação e desafios
-                        e muito dedicado e motivado, busco sempre experiência e conhecimento, gosto de aprender sempre mais.
+                        Meu nome é João Paulo, sou desenvolvedor FullStack, com uma paixão por programação e desafios.
+                        Sou muito dedicado e motivado, busco sempre experiência e conhecimento, gosto de aprender sempre mais.
                         Atualmente estou cursando Análise e Desenvolvimento de Sistemas, e com um pouco mais de 1 ano de 
                         experiêcia profissional, trabalhando em empresas e desenvolvendo alguns projetos, tenho desenvolvido
                         habilidades sólidas em Node.js, HTML, CSS, JavaScript, React.js, ASP.NET Core, MySQL, SQL Server e MongoDB.
@@ -102,20 +102,20 @@
                     <br>
                     <p class="desc3">Minha meta é evoluir e crescer profissionalmente usando das minhas habilidade para fazer a difereça sempre.</p>
                     <br>
-                    <a href="/files/Curriculo.pdf" target="_blank" class="cvButton"><button>Abrir Currículo</button></a>
+                    <a href="/files/Curriculo.pdf" target="_blank" class="cvButton"><button class="descButtonAbout">Abrir Currículo</button></a>
                 </div>
             </div>
         </section>
         <section id="projects">
             <div class="content projects">
-                <h1>Projetos</h1>
+                <h1 class="titleProjects">Projetos</h1>
                 <br>
                 <div class="cards">
                     <div class="card card1">
                         <div class="front">
-                            <h1>Apple Clone</h1>
+                            <h1 class="titleProject1">Apple Clone</h1>
                             <div class="descriptionProject">
-                                <p>
+                                <p class="descProject1">
                                     Projeto de clone do site da Apple feita por mim, 
                                     responsivo, peguei como base o design do site da 
                                     Apple na época em que comecei esse projeto.
@@ -128,18 +128,19 @@
                             </div>
                         </div>
                         <div class="back">
-                            <a href="https://github.com/rochajpp/appleClone" target="_blank"><button>Ver código</button></a>
-                            <a href="https://rochajpp.github.io/appleClone/" target="_blank"><button>Ver projeto</button></a>
+                            <a href="https://github.com/rochajpp/appleClone" target="_blank"><button class="descButtonCode">Ver código</button></a>
+                            <a href="https://rochajpp.github.io/appleClone/" target="_blank"><button class="descButtonProject">Ver projeto</button></a>
                         </div>
                     </div>
                     <div class="card card2">
                         <div class="front">
-                            <h1>API Nasa</h1>
+                            <h1 class="titleProject2">API Nasa</h1>
                             <div class="descriptionProject">
-                                <p>
+                                <p class="descPoject2">
                                     Aplicação em Node.js de astronomia utilizando algumas API's
                                     utilizando principalmente as API's da nasa.
-                                    <br>
+                                </p>
+                                <p class="descProject22">
                                     A aplicação mostra algumas novidades e curiosidades sobre o
                                     universo e a Terra.
                                 </p>
@@ -152,15 +153,15 @@
                             </div>
                         </div>
                         <div class="back">
-                            <a href="https://github.com/rochajpp/apiNasa" target="_blank"><button>Ver código</button></a>
-                            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7082376560846020608/" target="_blank"><button>Ver projeto</button></a>
+                            <a href="https://github.com/rochajpp/apiNasa" target="_blank"><button class="descButtonCode">Ver código</button></a>
+                            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7082376560846020608/" target="_blank"><button class="descButtonProject">Ver projeto</button></a>
                         </div>
                     </div>
                     <div class="card card3">
                         <div class="front">
-                            <h1>Portfolio</h1>
+                            <h1 class="titleProject3">Portfolio</h1>
                             <div class="descriptionProject">
-                                <p>
+                                <p class="descProject3">
                                     Meu portfolio antigo, fiz de uma forma
                                     mais "descontraída" utilizando HTML, CSS e JavaScript
                                     falando sobre mim e mostrando meus projetos.
@@ -173,14 +174,14 @@
                             </div>
                         </div>
                         <div class="back">
-                            <a href="https://github.com/rochajpp/Portfolio" target="_blank"><button>Ver código</button></a>
-                            <a href="https://rochajpp.github.io/Portfolio/" target="_blank"><button>Ver projeto</button></a>
+                            <a href="https://github.com/rochajpp/Portfolio" target="_blank"><button class="descButtonCode">Ver código</button></a>
+                            <a href="https://rochajpp.github.io/Portfolio/" target="_blank"><button class="descButtonProject">Ver projeto</button></a>
                         </div>
                     </div>
                     
                 </div>
                 <br>
-                <a href="https://github.com/rochajpp?tab=repositories" target="_blank"><h2>Repositórios</h2></a>
+                <a href="https://github.com/rochajpp?tab=repositories" target="_blank"><h2 class="repositories">Repositórios</h2></a>
             </div>
         </section>
         <section id="knowledge">
@@ -203,7 +204,7 @@
                                 <img class="nodejs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
                                 <br>
                                 <h3>Node.js</h3>
-                                <p>Plataforma de desenvolvimento</p>
+                                <p class="subtitleNode">Plataforma de desenvolvimento</p>
                             </div>
                             <div class="cardSlide">
                                 <img class="express" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />
@@ -227,19 +228,19 @@
                                 <img class="html" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"  />
                                
                                 <h3>HTML</h3>
-                                <p>Linguagem de marcação</p>
+                                <p class="subtitleHTML">Linguagem de marcação</p>
                             </div>
                             <div class="cardSlide">
                                 <img class="css" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
                                 
                                 <h3>CSS</h3>
-                                <p>Linguagem de estilo</p>
+                                <p class="subtitleCSS">Linguagem de estilo</p>
                             </div>
                             <div class="cardSlide">
                                 <img class="js" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                              
                                 <h3>JavaScript</h3>
-                                <p>Linguagem de programação</p>
+                                <p class="subtitleJs">Linguagem de programação</p>
                             </div>
                             <div class="cardSlide">
                                 <img class="react" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
@@ -250,7 +251,7 @@
                         </div>
                     </div>
                     <div class="tech database">
-                        <h1>Banco de Dados</h1>
+                        <h1 class="dbTitle">Banco de Dados</h1>
                         <br>
                         <div class="slide">
                             <div class="cardSlide">
@@ -278,7 +279,7 @@
             </div>
         </section>
         <section id="contact">
-            <h1>Contato</h1>
+            <h1 class="titleContact">Contato</h1>
             <div class="content contact">              
                 <form action="https://formsubmit.co/contato@joaopaulorocha.com" method="POST">
                     <div class="infoMessage">
@@ -287,7 +288,7 @@
                             <input name="name" type="text" class="name" id="name" required>
                         </div>  
                         <div class="info infoEmail">
-                            <label>E-mail:</label>
+                            <label class="labelEmail">E-mail:</label>
                             <input name="email" type="email" class="email" id="email" required>
                         </div>
                     </div>       
@@ -322,6 +323,7 @@
     <script src="/code/menu.js"></script>
     <script src="/code/slide.js"></script>
     <script src="/code/scrollReveal.js"></script>
+    <script src="/code/translate.js"></script>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>     
