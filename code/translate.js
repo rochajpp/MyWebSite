@@ -55,8 +55,9 @@ function translate(language){
 
     document.querySelector(".titleContact").innerHTML = data.sectionContact.titleContact;
     document.querySelector(".labelName").innerHTML = data.sectionContact.labelName;
+    document.querySelector(".labelEmail").innerHTML = data.sectionContact.labelEmail;
     document.querySelector(".buttonForm").innerHTML = data.sectionContact.buttonForm;
-    document.querySelector(".textMessage").placeholder = "Your Message..."
+    document.querySelector(".textMessage").placeholder = data.sectionContact.textMessage;
 
 }
 

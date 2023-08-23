@@ -51,7 +51,9 @@
     "sectionContact": {
       "titleContact": "連絡先",
       "labelName": "名前：",
-      "buttonForm": "送信"
+      "labelEmail": "Eメール",
+      "buttonForm": "送信",
+      "textMessage": "あなたのメッセージ..."
     }
   }
   

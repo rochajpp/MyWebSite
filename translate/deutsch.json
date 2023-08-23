@@ -54,6 +54,8 @@
     "sectionContact":{
         "titleContact": "Kontakt",
         "labelName": "Name:",
-        "buttonForm": "Senden"
+        "labelEmail": "Email",
+        "buttonForm": "Senden",
+        "textMessage": "Ihre Nachricht..."
     }
     }

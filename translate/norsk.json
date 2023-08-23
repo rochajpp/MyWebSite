@@ -55,6 +55,8 @@
     "sectionContact":{
         "titleContact": "Kontakt",
         "labelName": "Navn:",
-        "buttonForm": "Send"
+        "labelEmail": "E-post",
+        "buttonForm": "Send",
+        "textMessage": "Din beskjed..."
     }
     }
