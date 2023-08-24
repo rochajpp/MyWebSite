@@ -47,6 +47,24 @@
       "subtitleJs": "プログラム言語",
       "dbTitle": "データベース"
     },
+
+    "sectionExperience": {
+      "titleExperience": "経験",
+      "titleHeaderExp1": "テクニカルサポート",
+      "titleHeaderExp2": "フルスタック開発者",
+      "placeExp1": "9月7日大学",
+      "placeExp2": "アリ・デ・サ大学",
+      "aboutExp": "概要",
+      "descExp1": "機械の修理とインフラ、ネットワーク、サーバーのサポート。",
+      "descExp2": "ASP.NET Core、Node.js、MySQLを使用したフルスタックソフトウェア開発。",
+      "skillExp": "スキル",
+      "skill1": "コンピュータの修理（ハードウェア）",
+      "skill2": "ネットワーク",
+      "skill3": "サーバー",
+      "periodExp": "期間",
+      "nowPeriod": "現在"
+  },
+  
   
     "sectionContact": {
       "titleContact": "連絡先",

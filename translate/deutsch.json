@@ -1,11 +1,11 @@
 {
-        "header":{
-            "primaryNav":{
-                "homeN": "Startseite",
-                "aboutN": "Über",
-                "projectsN": "Projekte",
-                "knowledgeN": "Wissen",
-                "contactN": "Kontakte"
+    "header":{
+        "primaryNav":{
+            "homeN": "Startseite",
+            "aboutN": "Über",
+            "projectsN": "Projekte",
+            "knowledgeN": "Wissen",
+            "contactN": "Kontakte"
         },
  
         "SecNav":{
@@ -50,6 +50,24 @@
         "subtitleJs": "Programmiersprache",
         "dbTitle": "Datenbank"
     },
+
+    "sectionExperience": {
+        "titleExperience": "Erfahrung",
+        "titleHeaderExp1": "Technischer Support",
+        "titleHeaderExp2": "FullStack-Entwickler",
+        "placeExp1": "Universität 7. September",
+        "placeExp2": "Ari de Sá Hochschule",
+        "aboutExp": "Über",
+        "descExp1": "Reparaturen von Maschinen und Unterstützung bei Infrastruktur, Netzwerken und Servern.",
+        "descExp2": "FullStack-Softwareentwicklung mit ASP.NET Core, Node.js und MySQL.",
+        "skillExp": "Fähigkeiten",
+        "skill1": "Computerreparaturen (Hardware)",
+        "skill2": "Netzwerke",
+        "skill3": "Server",
+        "periodExp": "Zeitraum",
+        "nowPeriod": "aktuell"
+    },
+    
     
     "sectionContact":{
         "titleContact": "Kontakt",

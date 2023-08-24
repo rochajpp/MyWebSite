@@ -51,6 +51,23 @@
         "dbTitle": "Database"
     },
 
+    "sectionExperience": {
+        "titleExperience": "Experience",
+        "titleHeaderExp1": "Technical Support",
+        "titleHeaderExp2": "FullStack Developer",
+        "placeExp1": "University of September 7th",
+        "placeExp2": "Ari de Sá College",
+        "aboutExp": "About",
+        "descExp1": "Machine repairs and support in infrastructure, networks, and servers.",
+        "descExp2": "FullStack software development using ASP.NET Core, Node.js, and MySQL.",
+        "skillExp": "Skills",
+        "skill1": "Computer Repairs (Hardware)",
+        "skill2": "Networks",
+        "skill3": "Servers",
+        "periodExp": "Period",
+        "nowPeriod": "current"
+    },
+
     "sectionContact":{
         "titleContact": "Contact",
         "labelName": "Name:",

@@ -50,6 +50,25 @@
         "subtitleJs": "Linguagem de programação",
         "dbTitle": "Banco de dados"
     },
+
+
+    "sectionExperience":{
+        "titleExperience": "Experiência",
+        "titleHeaderExp1": "Suporte Técnico",
+        "titleHeaderExp2": "Desenvolvedor FullStack",
+        "placeExp1": "Universidade 7 de Setembro",
+        "placeExp2": "Faculdade Ari de Sá",
+        "aboutExp": "Sobre",
+        "descExp1": "Consertos de máquinas e suporte na infraestrutura, redes e servidores.",
+        "descExp2": "Desenvolvimento FullStack de softwares com ASP.NET Core, Node.js e MySQL.",
+        "skillExp": "Competências",
+        "skill1": "Conserto de computadores(Hardware)",
+        "skill2": "Redes",
+        "skill3": "Servidores",
+        "periodExp": "Período",
+        "nowPeriod": "atual"
+    },
+
     
     "sectionContact":{
         "titleContact": "Contato",

@@ -53,6 +53,32 @@ function translate(language){
     document.querySelector(".subtitleJs").innerHTML = data.sectionKnowledge.subtitleJs;
     document.querySelector(".dbTitle").innerHTML = data.sectionKnowledge.dbTitle;
 
+    
+    document.querySelector(".titleExperience").innerHTML = data.sectionExperience.titleExperience;
+    document.querySelector(".titleHeaderExp1").innerHTML = data.sectionExperience.titleHeaderExp1;
+    document.querySelector(".titleHeaderExp2").innerHTML = data.sectionExperience.titleHeaderExp2;
+    document.querySelector(".placeExp1").innerHTML = data.sectionExperience.placeExp1;
+    document.querySelector(".placeExp2").innerHTML = data.sectionExperience.placeExp2;
+    document.querySelector(".aboutExp1").innerHTML = data.sectionExperience.aboutExp;
+    document.querySelector(".aboutExp2").innerHTML = data.sectionExperience.aboutExp;
+    document.querySelector(".descExp1").innerHTML = data.sectionExperience.descExp1;
+    document.querySelector(".descExp2").innerHTML = data.sectionExperience.descExp2;
+    document.querySelector(".skillsExp1").innerHTML = data.sectionExperience.skillExp;
+    document.querySelector(".skillsExp2").innerHTML = data.sectionExperience.skillExp;
+    document.querySelector(".skill1").innerHTML = data.sectionExperience.skill1;
+    document.querySelector(".skill2") .innerHTML = data.sectionExperience.skill2;
+    document.querySelector(".skill3").innerHTML = data.sectionExperience.skill3;
+    document.querySelector(".periodExp1").innerHTML = data.sectionExperience.periodExp;
+    document.querySelector(".periodExp2").innerHTML = data.sectionExperience.periodExp;
+    document.querySelector(".nowPeriod").innerHTML = data.sectionExperience.nowPeriod;
+
+
+
+
+
+
+
+
     document.querySelector(".titleContact").innerHTML = data.sectionContact.titleContact;
     document.querySelector(".labelName").innerHTML = data.sectionContact.labelName;
     document.querySelector(".labelEmail").innerHTML = data.sectionContact.labelEmail;

@@ -21,5 +21,9 @@ scrl.reveal(".cvButton", {duration: 2000, origin: 'bottom'});
 //Home
 scrl.reveal(".home", {duration: 2000, origin:'bottom'})
 
+//Experience
+scrl.reveal(".titleExperience", {duration: 2000, origin: 'top'});
+scrl.reveal(".boxExperience", {duration: 2000})
+
 //Contact
 scrl.reveal(".contact", {duration: 2000, origin:'bottom'});

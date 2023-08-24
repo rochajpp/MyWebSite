@@ -51,6 +51,24 @@
         "subtitleJs": "Programmeringsspråk",
         "dbTitle": "Database"
     },
+
+    "sectionExperience": {
+        "titleExperience": "Erfaring",
+        "titleHeaderExp1": "Teknisk Støtte",
+        "titleHeaderExp2": "FullStack-utvikler",
+        "placeExp1": "Universitetet 7. september",
+        "placeExp2": "Ari de Sá Høgskole",
+        "aboutExp": "Om",
+        "descExp1": "Reparasjoner av maskiner og støtte innen infrastruktur, nettverk og servere.",
+        "descExp2": "FullStack programvareutvikling ved bruk av ASP.NET Core, Node.js og MySQL.",
+        "skillExp": "Ferdigheter",
+        "skill1": "Reparasjon av datamaskiner (maskinvare)",
+        "skill2": "Nettverk",
+        "skill3": "Servere",
+        "periodExp": "Periode",
+        "nowPeriod": "nåværende"
+    },
+    
     
     "sectionContact":{
         "titleContact": "Kontakt",

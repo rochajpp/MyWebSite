@@ -68,7 +68,6 @@ select{
 
 .menuArea nav ul a li{
     list-style: none;
- 
     font-weight: bold;
 
 }
@@ -94,7 +93,7 @@ select{
 
 .primaryNav ul{
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .primaryNav ul a{
