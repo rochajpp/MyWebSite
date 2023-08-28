@@ -18,6 +18,9 @@ document.querySelector(".projectsMenu").onclick = () => {
 document.querySelector(".knowledgeMenu").onclick = () => {
     body.classList.toggle("menu");
 }
+document.querySelector(".experienceMenu").onclick = () => {
+    body.classList.toggle("menu");
+}
 document.querySelector(".contactMenu").onclick = () => {
     body.classList.toggle("menu");
 }
