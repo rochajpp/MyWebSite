@@ -10,7 +10,22 @@
 
 /*Media para quando o CELULARES estiver DEITADO*/
 @media(max-height: 390px){
-   
+
+    section{
+        padding: 12rem 0;
+    }
+   #backgroundImage{
+        width: 100%;
+   }
+   .menuArea nav ul{ 
+        gap: 0.4rem;
+    }
+
+    .menuArea{
+        padding: 0.5rem 0;     
+    }
+    
+
 }
 
 /*Media feita para responsividade de CELULARES*/
