@@ -1,4 +1,11 @@
 @media (max-height: 568px) and (max-width: 321px){
+    section{
+        padding: 17rem 0;
+    }
+
+    .card{
+        padding: 4rem;
+    }
 }
 
 /*Media para quando o CELULARES estiver DEITADO*/
@@ -98,6 +105,14 @@
         justify-content: center;
     }
 
+    .boxExperience{
+        flex-direction: column;
+    }
+
+    .boxExperience ul{
+        flex-direction: column;
+    }
+
 }
 
 /*Media para que quando a página for aberta em COMPUTADOR*/
@@ -129,6 +144,10 @@
     }
     #backgroundImage{
         width: 100%;
+    } 
+
+    .boxExperience ul{
+        gap: 2rem;
     }
     
 
