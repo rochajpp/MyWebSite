@@ -5,6 +5,7 @@
             "aboutN": "Über",
             "projectsN": "Projekte",
             "knowledgeN": "Wissen",
+            "experienceN": "Erfahrungen",
             "contactN": "Kontakte"
         },
  
@@ -13,6 +14,7 @@
             "aboutMenu": "Über",
             "projectsMenu": "Projekte",
             "knowledgeMenu": "Wissen",
+            "experienceMenu": "Erfahrungen",
             "contactMenu": "Kontakte"
         }
     },

@@ -5,6 +5,7 @@
         "aboutN": "約",
         "projectsN": "プロジェクト",
         "knowledgeN": "知識",
+        "experienceN": "経験",
         "contactN": "連絡先"
       },
   
@@ -13,6 +14,7 @@
         "aboutMenu": "約",
         "projectsMenu": "プロジェクト",
         "knowledgeMenu": "知識",
+        "experienceMenu": "経験メニュー",
         "contactMenu": "連絡先"
       }
     },

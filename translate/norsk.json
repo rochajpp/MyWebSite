@@ -5,6 +5,7 @@
             "aboutN": "Om",
             "projectsN": "Prosjekter",
             "knowledgeN": "Kunnskap",
+            "experienceN": "Erfaringer",
             "contactN": "Kontakter"
         },
     
@@ -14,6 +15,7 @@
             "aboutMenu": "Om",
             "projectsMenu": "Prosjekter",
             "knowledgeMenu": "Kunnskap",
+            "experienceMenu": "Erfaringer",
             "contactMenu": "Kontakter"
         }
     },

@@ -17,6 +17,7 @@ function translate(language){
     document.querySelector(".aboutN").innerHTML = data.header.primaryNav.aboutN;
     document.querySelector(".projectsN").innerHTML = data.header.primaryNav.projectsN;
     document.querySelector(".knowledgeN").innerHTML = data.header.primaryNav.knowledgeN;
+    document.querySelector(".experienceN").innerHTML = data.header.primaryNav.experienceN;
     document.querySelector(".contactN").innerHTML = data.header.primaryNav.contactN;
 
 
@@ -24,6 +25,7 @@ function translate(language){
     document.querySelector(".aboutMenu").innerHTML = data.header.SecNav.aboutMenu;
     document.querySelector(".projectsMenu").innerHTML = data.header.SecNav.projectsMenu;
     document.querySelector(".knowledgeMenu").innerHTML = data.header.SecNav.knowledgeMenu;
+    document.querySelector(".experienceMenu").innerHTML = data.header.SecNav.experienceMenu;
     document.querySelector(".contactMenu").innerHTML = data.header.SecNav.contactMenu;
 
 
