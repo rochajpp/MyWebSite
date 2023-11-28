@@ -1,29 +1,19 @@
 {
     "header":{
-        "primaryNav":{
-            "homeN": "Hjem",
-            "aboutN": "Om",
-            "projectsN": "Prosjekter",
-            "knowledgeN": "Kunnskap",
-            "experienceN": "Erfaringer",
-            "contactN": "Kontakter"
-        },
-    
- 
-        "SecNav":{
-            "homeMenu": "Hjem",
-            "aboutMenu": "Om",
-            "projectsMenu": "Prosjekter",
-            "knowledgeMenu": "Kunnskap",
-            "experienceMenu": "Erfaringer",
-            "contactMenu": "Kontakter"
-        }
+        "textClose": "Lukk",
+        "homeMenu": "Hjem",
+        "aboutMenu": "Om",
+        "projectsMenu": "Prosjekter",
+        "knowledgeMenu": "Kunnskap",
+        "experienceMenu": "Erfaringer",
+        "contactMenu": "Kontakter"
     },
     
     "sectionHome":{
-        "h1PriPart": "Utvikling av innovative løsninger med lidenskap",
-        "h1SecPart": "og presisjon for å påvirke den digitale verden positivt.",
-        "office": "FullStack-utvikler"
+        "h1Pri": "Utvikling av innovative løsninger med lidenskap og presisjon for å påvirke den digitale verden positivt.",
+        "office": "FullStack-utvikler",
+        "seeProject": "Se prosjekter",
+        "aboutMe": "Om meg" 
     },
     
     "sectionAbout":{

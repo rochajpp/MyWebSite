@@ -1,28 +1,19 @@
 {
     "header": {
-      "primaryNav": {
-        "homeN": "ホーム",
-        "aboutN": "約",
-        "projectsN": "プロジェクト",
-        "knowledgeN": "知識",
-        "experienceN": "経験",
-        "contactN": "連絡先"
-      },
-  
-      "SecNav": {
-        "homeMenu": "ホーム",
-        "aboutMenu": "約",
-        "projectsMenu": "プロジェクト",
-        "knowledgeMenu": "知識",
-        "experienceMenu": "経験メニュー",
-        "contactMenu": "連絡先"
-      }
+      "textClose": "閉じる",
+      "homeMenu": "ホーム",
+      "aboutMenu": "約",
+      "projectsMenu": "プロジェクト",
+      "knowledgeMenu": "知識",
+      "experienceMenu": "経験メニュー",
+      "contactMenu": "連絡先"
     },
   
     "sectionHome": {
-      "h1PriPart": "情熱と正確さを持って革新的なソリューションを開発する",
-      "h1SecPart": "デジタルワールドにポジティブな影響を与えるために。",
-      "office": "フルスタックデベロッパー"
+      "h1Pri": "情熱と正確さを持って革新的なソリューションを開発する デジタルワールドにポジティブな影響を与えるために。",
+      "office": "フルスタックデベロッパー",
+      "seeProject": "プロジェクトを見る",
+      "aboutMe": "私について" 
     },
   
     "sectionAbout": {

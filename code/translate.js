@@ -13,25 +13,19 @@ function getData(file){
 function translate(language){
     const data = getData("/translate/" + language + ".json");
 
-    document.querySelector(".homeN").innerHTML = data.header.primaryNav.homeN;
-    document.querySelector(".aboutN").innerHTML = data.header.primaryNav.aboutN;
-    document.querySelector(".projectsN").innerHTML = data.header.primaryNav.projectsN;
-    document.querySelector(".knowledgeN").innerHTML = data.header.primaryNav.knowledgeN;
-    document.querySelector(".experienceN").innerHTML = data.header.primaryNav.experienceN;
-    document.querySelector(".contactN").innerHTML = data.header.primaryNav.contactN;
+  
+    document.querySelector(".textClose").innerHTML = data.header.textClose;
+    document.querySelector(".about-menu").innerHTML = data.header.aboutMenu;
+    document.querySelector(".projects-menu").innerHTML = data.header.projectsMenu;
+    document.querySelector(".knowledge-menu").innerHTML = data.header.knowledgeMenu;
+    document.querySelector(".experience-menu").innerHTML = data.header.experienceMenu;
+    document.querySelector(".contact-menu").innerHTML = data.header.contactMenu;
 
 
-    document.querySelector(".homeMenu").innerHTML = data.header.SecNav.homeMenu;
-    document.querySelector(".aboutMenu").innerHTML = data.header.SecNav.aboutMenu;
-    document.querySelector(".projectsMenu").innerHTML = data.header.SecNav.projectsMenu;
-    document.querySelector(".knowledgeMenu").innerHTML = data.header.SecNav.knowledgeMenu;
-    document.querySelector(".experienceMenu").innerHTML = data.header.SecNav.experienceMenu;
-    document.querySelector(".contactMenu").innerHTML = data.header.SecNav.contactMenu;
-
-
-    document.querySelector(".h1PriPart").innerHTML = data.sectionHome.h1PriPart;
-    document.querySelector(".h1SecPart").innerHTML = data.sectionHome.h1SecPart;
+    document.querySelector(".h1Pri").innerHTML = data.sectionHome.h1Pri;
     document.querySelector(".office").innerHTML = data.sectionHome.office;
+    document.querySelector(".seeProject").innerHTML = data.sectionHome.seeProject;
+    document.querySelector(".aboutMe").innerHTML = data.sectionHome.aboutMe;
 
 
     document.querySelector(".titleAbout").innerHTML = data.sectionAbout.titleAbout;
@@ -91,13 +85,9 @@ function translate(language){
 
 
 const select = document.querySelector("#option");
-const selectResp = document.querySelector("#optionResp");
+
 
 select.addEventListener("change", function() {
     let option = select.value;
-    translate(option);
-});
-selectResp.addEventListener("change", function() {
-    let option = selectResp.value;
     translate(option);
 });

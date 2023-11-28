@@ -18,6 +18,11 @@ body, html{
     filter: blur(4px) contrast(40%);
 }
 
+.activeHeader{
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+}
+
 section{
     display: flex;
     align-items: center;
@@ -38,3 +43,65 @@ body::-webkit-scrollbar-thumb{
     background-color: rgb(51, 51, 51); 
 }
 
+.menu-interface{
+    top: -100rem;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(22, 28, 40);
+    transition: 0.8s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    z-index: 100;
+}
+.menu-interface h1{
+    font-weight: lighter;
+    font-size: 1.5rem;
+    color: #ccc
+}
+
+.menu-interface p{
+    position: absolute;
+    bottom: 1rem;
+    color: #ccc;
+}
+
+.menu-interface nav ul{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu-interface nav ul a{
+    font-size: 1.4rem;
+    list-style: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+}
+
+.menu-on .menu-interface{
+    top: 0;
+}
+
+select{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    width: 6.5rem;
+}
+
+select option{
+    color: black;
+}

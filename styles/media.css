@@ -6,6 +6,14 @@
     .card{
         padding: 4rem;
     }
+
+    .icon{
+        display: none;
+    }
+
+    .menuOn .icon{
+        display: none;
+    }
 }
 
 /*Media para quando o CELULARES estiver DEITADO*/
@@ -173,4 +181,59 @@
     .cards{
         flex-direction: column;
     }
+}
+
+@media (max-width: 922px){
+    header{
+        padding: 1rem;
+    }
+
+    .icon{
+        width: 2rem;
+    }
+    .desc{
+        width: 10rem;
+    }
+
+    .home-container img{
+        display: none;
+    }
+   
+
+    .buttons-home{
+        flex-direction: column;
+
+    }
+
+    .home-container h1{
+        font-size: 2.2rem;
+    }
+
+    .menuOn .menu-icon .topBar{
+        transform: rotate(45deg);
+        animation: mergeAnimation 0.1s ease-in-out forwards;  
+    }
+
+
+    @keyframes mergeAnimation {
+        0% {
+          top: 0;
+          
+        }
+        100% {
+          top: 4px;
+          
+        }
+    }
+}
+
+/*Media para que quando a página for aberta em COMPUTADOR*/
+@media screen and (min-width: 924px){
+    .home-container h1{
+        font-size: 3rem;
+    }
+    .buttons-home{
+        align-items: center;
+    }
+    
 }

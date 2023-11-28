@@ -29,66 +29,66 @@
 
     <title>Home | João Paulo Rocha</title>
 </head>
+<img id="backgroundImage" src="/img/workStation4.jpg">
 <body>
+    <div class="menu-interface">
+        <h1>Menu</h1>
+        <nav>
+            <ul>
+                <a href="#about" class="menu-a about-menu"><li>Sobre mim</li></a>
+                <a href="#projects" class="menu-a projects-menu"><li>Projetos</li></a>
+                <a href="#knowledge" class="menu-a knowledge-menu"><li>Conhecimentos</li></a>
+                <a href="#experience" class="menu-a experience-menu"><li>Experiências</li></a>
+                <a href="#contact" class="menu-a contact-menu"><li>Contato</li></a>
+                <br>
+                <select id="option">
+                    <option value="pt-br" id="pt-br">Português</option>
+                    <option value="en" id="en">English</option>
+                    <option value="norsk" id="norsk">Norsk</option>
+                    <option value="nihon" id="nihon">日本</option>
+                    <option value="deutsch" id="deutsch">Deutsch</option>
+                </select>
+            </ul>
+        </nav>
 
-    <img id="backgroundImage" src="/img/workStation4.jpg">
+        <p>©João Paulo Rocha 2023</p>
+    </div>  
     <div class="Main">
         <header>
-            <div class="header">
-                <a class="logoArea" href="#"><img class="primaryLogo logo" src="/img/logoBlack.png"><h1>Rocha</h1></a>
-                <img class="logoResp logo" src="/img/logoBlack.png">
-                <nav class="primaryNav">
-                    <ul>
-                        <a href="#"><li class="homeN">Início</li></a>
-                        <a href="#about"><li class="aboutN">Sobre mim</li></a>
-                        <a href="#projects"><li class="projectsN">Projetos</li></a>
-                        <a href="#knowledge"><li class="knowledgeN">Conhecimentos</li></a>
-                        <a href="#experience"><li class="experienceN">Experiências</li></a>
-                        <a href="#contact"><li class="contactN">Contato</li></a>
-                        <select id="option">
-                            <option value="pt-br" id="pt-br">Português</option>
-                            <option value="en" id="en">English</option>
-                            <option value="norsk" id="norsk">Norsk</option>
-                            <option value="nihon" id="nihon">日本</option>
-                            <option value="deutsch" id="deutsch">Deutsch</option>
-                        </select>
-                       
-                    </ul>
-                </nav>
-            </div>
-
-            <div class="menuArea">
-                
-                <nav>
-                    <ul>
-                        <img class="logoRespMenu logo" src="/img/logoBlack.png">
-                        <a class="homeMenu" href="#"><li class="homeMenu">Início</li></a>
-                        <a class="aboutMenu" href="#about"><li class="aboutMenu">Sobre mim</li></a>
-                        <a class="projectsMenu" href="#projects"><li class="projectsMenu">Projetos</li></a>
-                        <a class="knowledgeMenu" href="#knowledge"><li class="knowledgeMenu">Conhecimentos</li></a>
-                        <a href="#experience"><li class="experienceMenu">Experiências</li></a>
-                        <a class="contactMenu" href="#contact"><li class="contactMenu">Contato</li></a>
-                        <select id="optionResp">
-                            <option value="pt-br" id="pt-br">Português</option>
-                            <option value="en" id="en">English</option>
-                            <option value="norsk" id="norsk">Norsk</option>
-                            <option value="nihon" id="nihon">日本</option>
-                            <option value="deutsch" id="deutsch">Deutsch</option>
-                        </select>
-                    </ul>
-                </nav>
-            </div>
+            <a class="logo-full" href="/">
+                <img class="white-logo icon" src="/img/logoWhite.png">
+                <img class="black-logo icon" src="/img/logoBlack.png">
+                <img class="white-logo desc" src="/img/joaoPauloRochaWhite.png">
+                <img class="black-logo desc" src="/img/joaoPauloRocha.png">
+            </a>
+            <a class="menu-option" onclick="activeMenu()">
+                <div class="menu default-menu">
+                    <text class="textClose">Fechar</text>
+                    <text class="textMenu">Menu</text>
+                    <div class="menu-icon">
+                        <div class="topBar"></div>
+                        <div class="bottomBar"></div>   
+                    </div>
+                </div>
+            </a>         
         </header>
         <section id="home">
-            <div class="content home">
-                <img class="logoHome" src="/img/logoBlack.png">
-                <br>
-                <h1 class="h1PriPart">Desenvolvendo soluções inovadoras com paixão </h1>
-                <h1 class="h1SecPart" id="h1SecPart">e precisão para impactar positivamente o mundo digital.</h1>
-                <br>
-                <h2><text>João Paulo</text> <text id="point">•</text> <text class="office">Desenvolvedor FullStack</text></h2>
-                <br>
-                <a href="#about"><img class="pointer" src="/img/pointer.png"></a>
+            <div class="home-container">
+                <div class="apresent-part">
+                    <h2>João Paulo Rocha</h2>
+                    <h1 class="office">Desevolvedor de softaware FullStack</h1>
+                    <h2 class="h1Pri">
+                        Desenvolvendo soluções inovadoras com paixão
+                        e precisão para impactar positivamente o mundo digital.
+                    </h2>
+                    <br>
+                    <div class="buttons-home">
+                        <a class="seeProject" href="#projects">Ver projetos</a>
+                        <p>ou</p>
+                        <a class="aboutMe" href="#about">Sobre mim</a>
+                    </div>
+                </div>
+                <img src="/img/pc.png">          
             </div>
         </section>
         <section id="about">
@@ -382,7 +382,6 @@
 
     <script src="/code/script.js"></script>
     <script src="/code/menu.js"></script>
-    <script src="/code/slide.js"></script>
     <script src="/code/scrollReveal.js"></script>
     <script src="/code/translate.js"></script>
 
