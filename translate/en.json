@@ -1,28 +1,20 @@
 {
-    "header":{
-        "primaryNav":{
-            "homeN": "Home",
-            "aboutN": "About",
-            "projectsN": "Projects",
-            "knowledgeN": "Knowledge",
-            "experienceN": "Experiences",
-            "contactN": "Contacts"
-        },
-
-        "SecNav":{
-            "homeMenu": "Home",
-            "aboutMenu": "About",
-            "projectsMenu": "Projects",
-            "knowledgeMenu": "Knowledge",
-            "experienceMenu": "Experiences",
-            "contactMenu": "Contacts"
-        }
+    "header":{         
+        "textClose": "Close",
+        "homeMenu": "Home",
+        "aboutMenu": "About",
+        "projectsMenu": "Projects",
+        "knowledgeMenu": "Knowledge",
+        "experienceMenu": "Experiences",
+        "contactMenu": "Contacts"
+        
     },
 
     "sectionHome":{
-        "h1PriPart": "Developing innovative solutions with passion",
-        "h1SecPart": "and accuracy to positively impact the digital world.",
-        "office": "FullStack Developper"
+        "h1Pri": "Developing innovative solutions with passion and accuracy to positively impact the digital world.",
+        "office": "FullStack Developper",
+        "seeProject": "See projects",
+        "aboutMe": "About me" 
     },
 
     "sectionAbout":{

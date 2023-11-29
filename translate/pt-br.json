@@ -1,28 +1,19 @@
 {
     "header":{
-        "primaryNav":{
-            "homeN": "Início",
-            "aboutN": "Sobre",
-            "projectsN": "Projetos",
-            "knowledgeN": "Conhecimento",
-            "experienceN": "Experiêcias",
-            "contactN": "Contatos"
-        },
-    
-        "SecNav":{
-            "homeMenu": "Início",
-            "aboutMenu": "Sobre",
-            "projectsMenu": "Projetos",
-            "knowledgeMenu": "Conhecimento",
-            "experienceMenu": "Experiêcias",
-            "contactMenu": "Contatos"
-        }
+        "textClose": "Fechar",
+        "homeMenu": "Início",
+        "aboutMenu": "Sobre",
+        "projectsMenu": "Projetos",
+        "knowledgeMenu": "Conhecimento",
+        "experienceMenu": "Experiêcias",
+        "contactMenu": "Contatos"
     },
     
     "sectionHome":{
-        "h1PriPart": "Desenvolvendo soluções inovadoras com paixão",
-        "h1SecPart": "e precisão para impactar positivamente o mundo digital.",
-        "office": "Desenvolvedor FullStack"
+        "h1Pri": "Desenvolvendo soluções inovadoras com paixão e precisão para impactar positivamente o mundo digital",
+        "office": "Desenvolvedor FullStack",
+        "seeProject": "Ver projetos",
+        "aboutMe": "Sobre mim" 
     },
     
     "sectionAbout":{

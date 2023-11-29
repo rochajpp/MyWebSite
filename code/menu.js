@@ -1,27 +1,11 @@
 const body = document.querySelector("body");
 
-document.querySelector(".logoResp").onclick = () => {
-    body.classList.toggle("menu");
-}
-document.querySelector(".logoRespMenu").onclick = () => {
-    body.classList.toggle("menu");
-}
-document.querySelector(".homeMenu").onclick = () => {
-    body.classList.toggle("menu");
-}
-document.querySelector(".aboutMenu").onclick = () => {
-    body.classList.toggle("menu");
-}
-document.querySelector(".projectsMenu").onclick = () => {
-    body.classList.toggle("menu");
-}
-document.querySelector(".knowledgeMenu").onclick = () => {
-    body.classList.toggle("menu");
-}
-document.querySelector(".experienceMenu").onclick = () => {
-    body.classList.toggle("menu");
-}
-document.querySelector(".contactMenu").onclick = () => {
-    body.classList.toggle("menu");
+const elements = document.querySelectorAll(".menu-a");
+
+
+for(var i = 0; i < elements.length; i++){
+    elements[i].addEventListener('click', () => {
+        body.classList.toggle("menu-on");
+    })
 }
 

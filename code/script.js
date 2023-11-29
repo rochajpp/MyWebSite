@@ -6,4 +6,9 @@ function activeHeader(){
 
 document.addEventListener("scroll", activeHeader);
 
+function activeMenu(){
+    const body = document.querySelector("body");
+    body.classList.toggle("menu-on");
+}
+
 
