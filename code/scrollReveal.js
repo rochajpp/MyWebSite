@@ -11,15 +11,11 @@ scrl.reveal(".card2", {duration: 2000, origin: 'top'});
 scrl.reveal(".card3", {duration: 2500, origin: 'top'});
 
 //About
-scrl.reveal(".perfil", {duration: 2000, origin: 'left'});
-scrl.reveal(".social", {duration: 2000, origin: 'left'})
-scrl.reveal(".desc1", {duration: 2000, origin: 'bottom'});
-scrl.reveal(".desc2", {duration: 2000, origin: 'bottom'});
-scrl.reveal(".desc3", {duration: 2000, origin: 'bottom'});
-scrl.reveal(".cvButton", {duration: 2000, origin: 'bottom'});
+scrl.reveal(".aboutDescription", {duration: 2000, origin: 'bottom'});
+scrl.reveal(".photo", {duration: 2000, origin: 'left'});
 
 //Home
-scrl.reveal(".home", {duration: 2000, origin:'bottom'})
+scrl.reveal(".home-container", {duration: 2000, origin:'bottom'})
 
 //Experience
 scrl.reveal(".titleExperience", {duration: 2000, origin: 'top'});

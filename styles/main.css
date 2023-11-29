@@ -85,7 +85,11 @@ body::-webkit-scrollbar-thumb{
     font-weight: bold;
     color: white;
     text-decoration: none;
+    transition: 0.5s;
+}
 
+.menu-interface nav ul a:hover{
+    letter-spacing: 0.2rem;
 }
 
 .menu-on .menu-interface{
