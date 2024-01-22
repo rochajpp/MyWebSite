@@ -11,7 +11,7 @@ function getData(file){
 
  
 function translate(language){
-    const data = getData("/translate/" + language + ".json");
+    const data = getData("translate/" + language + ".json");
 
   
     document.querySelector(".textClose").innerHTML = data.header.textClose;
