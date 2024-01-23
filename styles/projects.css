@@ -78,17 +78,17 @@
 }
 
 .card1 .back{
-    background: url("/img/appleClone.jpeg") center no-repeat;
+    background: url("../img/appleClone.jpeg") center no-repeat;
     background-size: cover;
 }
 
 .card2 .back{
-    background: url("img/apiNasa.png") center no-repeat;
+    background: url("../img/apiNasa.png") center no-repeat;
     background-size: cover;
 }
 
 .card3 .back{
-    background: url("img/portfolio.jpeg") center no-repeat;
+    background: url("../img/portfolio.jpeg") center no-repeat;
     background-size: cover;
 }
 
