@@ -78,7 +78,7 @@
 }
 
 .card1 .back{
-    background: url("img/appleClone.jpeg") center no-repeat;
+    background: url("/img/appleClone.jpeg") center no-repeat;
     background-size: cover;
 }
 
