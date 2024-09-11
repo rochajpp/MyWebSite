@@ -11,11 +11,11 @@
         display: none;
     }
 
-    .about-description{
+    .aboutDescription{
         font-size: 1rem;
     }
 
-    .title-about{
+    .titleAbout{
         text-align: center;
     }
 
@@ -178,7 +178,7 @@
         align-items: center;
     }
 
-    .about-description{
+    .aboutDescription{
         align-items: center;
     }
 
