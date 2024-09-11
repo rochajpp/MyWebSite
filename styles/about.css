@@ -49,12 +49,6 @@
     color: rgb(41, 41, 41);
 }
 
-.titleAbout{
-    background-color: var(--blackTheme);
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 1rem;
-}
 .aboutDescription{
     display: flex;
     flex-direction: column;
