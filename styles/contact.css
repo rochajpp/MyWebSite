@@ -23,7 +23,13 @@
 .info{
     display: flex;
     flex-direction: column;
-    
+    position: relative;
+}
+
+.info label{
+    position: absolute;
+    bottom: 0rem;
+    transition: 0.2s;
 }
 
 
