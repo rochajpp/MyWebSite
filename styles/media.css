@@ -26,22 +26,15 @@
     .photo img{
         width: 12rem;
     }
+    
+    .buttons-home{
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 361px){
     .photo img{
         width: 15rem;
-    }
-}
-
-/*Media para quando o CELULARES estiver DEITADO*/
-@media(max-height: 390px){
-   .menuArea nav ul{ 
-        gap: 0.4rem;
-    }
-
-    .menuArea{
-        padding: 0.5rem 0;     
     }
 }
 
@@ -208,11 +201,6 @@
         display: none;
     }
    
-
-    .buttons-home{
-        flex-direction: column;
-
-    }
 
     .home-container h1{
         font-size: 2.2rem;
