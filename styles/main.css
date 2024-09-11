@@ -5,6 +5,10 @@
    
 }
 
+:root{
+    --blackTheme: rgb(41, 41, 41);
+}
+
 body, html{
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
@@ -43,7 +47,7 @@ body::-webkit-scrollbar{
 }
 body::-webkit-scrollbar-thumb{
     border-radius: 5rem;
-    background-color: rgb(51, 51, 51); 
+    background-color: var(--blackTheme); 
 }
 
 .menu-interface{
