@@ -7,14 +7,14 @@
         "knowledgeMenu": "Knowledge",
         "experienceMenu": "Experiences",
         "contactMenu": "Contacts"
-        
     },
 
     "sectionHome":{
         "h1Pri": "Developing innovative solutions with passion and accuracy to positively impact the digital world.",
         "office": "FullStack Developper",
         "seeProject": "See projects",
-        "aboutMe": "About me" 
+        "aboutMe": "About me",
+        "ou": "or" 
     },
 
     "sectionAbout":{

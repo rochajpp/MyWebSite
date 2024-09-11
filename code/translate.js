@@ -26,6 +26,7 @@ function translate(language){
     document.querySelector(".office").innerHTML = data.sectionHome.office;
     document.querySelector(".seeProject").innerHTML = data.sectionHome.seeProject;
     document.querySelector(".aboutMe").innerHTML = data.sectionHome.aboutMe;
+    document.querySelector(".ou").innerHTML = data.sectionHome.ou;
 
 
     document.querySelector(".titleAbout").innerHTML = data.sectionAbout.titleAbout;
