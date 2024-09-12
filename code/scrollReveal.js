@@ -6,9 +6,7 @@ ScrollReveal({ distance: '80px' });
 scrl.reveal(".tech", {duration: 2000, origin: 'bottom'});
 
 //Porojects
-scrl.reveal(".card1", {duration: 1500, origin: 'top'});
-scrl.reveal(".card2", {duration: 2000, origin: 'top'});
-scrl.reveal(".card3", {duration: 2500, origin: 'top'});
+scrl.reveal(".card", {duration: 2000, origin: 'top'});
 
 //About
 scrl.reveal(".aboutDescription", {duration: 2000, origin: 'bottom'});
