@@ -34,7 +34,9 @@
         "descProject22": "Applikasjonen viser noen nyheter og nysgjerrigheter om universet og jorden.",
     
         "descProject3": "Min gamle portefølje, jeg laget den på en mer 'avslappet' måte ved å bruke HTML, CSS og JavaScript for å fortelle om meg selv og vise mine prosjekter.",
-        "repositories": "Repositorier"
+        "repositories": "Repositorier",
+        "descButtonCode": "Se kode",
+        "descButtonProject": "Se prosjekt"
     },
     
     "sectionKnowledge": {

@@ -34,7 +34,9 @@
         "descProject22": "O aplicativo exibe algumas notícias e curiosidades sobre o universo e a Terra.",
     
         "descProject3": "Meu antigo portfólio, fiz de uma maneira mais 'relaxada', usando HTML, CSS e JavaScript para falar sobre mim e mostrar meus projetos.",
-        "repositories": "Repositórios"
+        "repositories": "Repositórios",
+        "descButtonCode": "Ver código",
+        "descButtonProject": "Ver projeto"
     },
     
     "sectionKnowledge": {

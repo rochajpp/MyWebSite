@@ -34,7 +34,9 @@
         "descProject22": "The application shows some news and curiosities about the universe and Earth.",
 
         "descProject3": "My old portfolio, I did it in a waymore 'relaxed' using HTML, CSS and JavaScript talking about me and showing my projects.",
-        "repositories": "Repositories"
+        "repositories": "Repositories",
+        "descButtonCode": "View code",
+        "descButtonProject": "Coew project"
     },
 
     "sectionKnowledge": {

@@ -35,7 +35,9 @@
         "descProject22": "Die Anwendung zeigt einige Nachrichten und Kuriositäten über das Universum und die Erde.",
     
         "descProject3": "Mein altes Portfolio, das ich in einer etwas 'lockeren' Art und Weise erstellt habe, wobei ich HTML, CSS und JavaScript verwendet habe, um über mich selbst zu sprechen und meine Projekte zu zeigen.",
-        "repositories": "Repositories"
+        "repositories": "Repositories",
+        "descButtonCode": "Code anzeigen",
+        "descButtonProject": "Projekt anzeigen"
     },
     
     "sectionKnowledge": {
