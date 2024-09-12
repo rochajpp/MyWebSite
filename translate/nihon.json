@@ -28,8 +28,7 @@
     "sectionProjects": {
       "titleProjects": "プロジェクト",
       "descProject1": "私が作成したAppleのウェブサイトのクローンプロジェクトで、レスポンシブ対応しています。このプロジェクトを始めた当時のAppleのウェブサイトのデザインを基にしています。",
-      "descProject2": "NASAのAPIを主に使用したNode.jsでの天文学アプリケーションです。",
-      "descProject22": "このアプリケーションは宇宙と地球に関するニュースや興味深い事実を表示します。",
+      "descProject2": "NASAのAPIを主に使用したNode.jsでの天文学アプリケーションです。このアプリケーションは宇宙と地球に関するニュースや興味深い事実を表示します。",
       "descProject3": "以前のポートフォリオで、私について語り、私のプロジェクトを紹介するためにHTML、CSS、JavaScriptを使用してリラックスした雰囲気で作成しました。",
       "repositories": "リポジトリ",
       "descButtonCode": "コードを表示",

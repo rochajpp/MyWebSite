@@ -181,6 +181,7 @@
 @media screen and (max-width: 560px){
     .b1, .b2, .b3{
         min-width: 50%;
+        text-align: center;
     }
 
     .card{

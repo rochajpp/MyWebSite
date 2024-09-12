@@ -30,8 +30,7 @@
     
         "descProject1": "Projeto de clone do site da Apple feito por mim, responsivo. Tomei como base o design do site da Apple na época em que iniciei este projeto.",
     
-        "descProject2": "Aplicativo de astronomia em Node.js usando algumas API's, principalmente as API's da NASA.",
-        "descProject22": "O aplicativo exibe algumas notícias e curiosidades sobre o universo e a Terra.",
+        "descProject2": "Aplicativo de astronomia em Node.js usando algumas API's, principalmente as API's da NASA. O aplicativo exibe algumas notícias e curiosidades sobre o universo e a Terra.",
     
         "descProject3": "Meu antigo portfólio, fiz de uma maneira mais 'relaxada', usando HTML, CSS e JavaScript para falar sobre mim e mostrar meus projetos.",
         "repositories": "Repositórios",

@@ -30,8 +30,7 @@
     
         "descProject1": "Apple website clone project made by me, responsive, I took as a basis the design of the website of Apple at the time I started this project.",
 
-        "descProject2": "Astronomy application in Node.js using some API's using mainly the API's from nasa.",
-        "descProject22": "The application shows some news and curiosities about the universe and Earth.",
+        "descProject2": "Astronomy application in Node.js using some API's using mainly the API's from nasa. The application shows some news and curiosities about the universe and Earth.",
 
         "descProject3": "My old portfolio, I did it in a waymore 'relaxed' using HTML, CSS and JavaScript talking about me and showing my projects.",
         "repositories": "Repositories",

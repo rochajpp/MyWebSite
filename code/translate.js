@@ -39,7 +39,6 @@ function translate(language){
     document.querySelector(".titleProjects").innerHTML = data.sectionProjects.titleProjects;
     document.querySelector(".descProject1").innerHTML = data.sectionProjects.descProject1;
     document.querySelector(".descPoject2").innerHTML = data.sectionProjects.descProject2;
-    document.querySelector(".descProject22").innerHTML = data.sectionProjects.descProject22;
     document.querySelector(".descProject3").innerHTML = data.sectionProjects.descProject3;
     document.querySelector(".repositories").innerHTML = data.sectionProjects.repositories;
     document.querySelectorAll(".descButtonCode").forEach((e) => {
