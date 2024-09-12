@@ -70,6 +70,9 @@
     cursor: pointer;
     display: flex;
     transition: 0.5s;
+    grid: 1;
+    width: 100%;
+    justify-content: center;
 }
 
 .aboutDescription button:hover{
