@@ -55,7 +55,7 @@ body::-webkit-scrollbar-thumb{
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background-color: rgb(22, 28, 40);
+    background-color: var(--blackTheme);
     transition: 0.8s;
     display: flex;
     flex-direction: column;
