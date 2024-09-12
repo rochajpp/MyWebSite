@@ -182,10 +182,18 @@
     .b1, .b2, .b3{
         min-width: 50%;
     }
+
+    .card{
+        justify-content: center;
+    }
 }
 @media screen and (min-width: 561px){
     .b1, .b2, .b3{
         width: 50%;
+    }
+
+    .card{
+        justify-content: space-between
     }
 }
 
