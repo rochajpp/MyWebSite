@@ -33,7 +33,7 @@ section{
     justify-content: center;
     border-bottom: 1px solid black;
     min-height: 100vh;
-
+    max-width: 100vw;
 }
 
 .content{
