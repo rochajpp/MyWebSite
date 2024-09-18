@@ -31,6 +31,23 @@
         flex-direction: column;
     }
 }
+@media screen and (max-width: 318px){
+    .tec img{
+        width: 2rem;
+    }
+}
+
+@media screen and (min-width: 318px){
+    .tec img{
+        width: 3rem;
+    }
+}
+
+@media screen and (max-width: 382px){
+    .card{
+        flex-direction: column;
+    }
+}
 
 @media (min-width: 361px){
     .photo img{
@@ -133,6 +150,7 @@
 
 }
 
+
 /*Media para que quando a página for aberta em COMPUTADOR*/
 @media screen and (min-width: 897px){
     .menuArea{
@@ -178,26 +196,23 @@
 
 }
 
+/*Screnn para ajustar o tamanho do pop-up do projeto de acordo com a tela */
 @media screen and (max-width: 560px){
     .b1, .b2, .b3{
         min-width: 50%;
         text-align: center;
     }
 
-    .card{
-        justify-content: center;
-    }
+
 }
+
 @media screen and (min-width: 561px){
     .b1, .b2, .b3{
         width: 50%;
     }
 
-    .card{
-        justify-content: space-between
-    }
 }
-
+/*=====================================================================*/
 
 /*Media feita para dimensão ENTRE a de CELULAR e a de COMPUTADOR*/
 @media screen and (min-width: 893px) and (max-width: 1226px){

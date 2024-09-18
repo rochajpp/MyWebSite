@@ -24,6 +24,7 @@
     justify-content: space-between;
     align-items: center;
     min-height: 70%;
+    width: 100%;
 }
 
 .project-info ion-icon{
@@ -74,6 +75,7 @@
 .card {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 1rem;
     border: 1px solid var(--blackTheme);
     padding: 1rem;
@@ -82,6 +84,7 @@
     backdrop-filter: blur(4px);
     width: 100%;
     cursor: pointer;
+    text-align: center;
 }
 .card1:hover{
     background: url("/img/appleClone.jpeg") center no-repeat;
@@ -122,14 +125,11 @@
 }
 
 .tec{
+    width: 100%;
     display: flex;
-    gap: 1rem;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    gap: 1rem;
     flex-wrap: wrap;
+    padding: 1rem;
 }
-
-.tec img{
-    width: 3rem;
-}
-

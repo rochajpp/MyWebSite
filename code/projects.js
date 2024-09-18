@@ -32,3 +32,7 @@ function closeInfoProject(){
     b2.style.display = "none";
     b3.style.display = "none";
 }
+
+function showTec(tec){
+    
+}
